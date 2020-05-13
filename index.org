@@ -1,0 +1,35 @@
+# Local IspellDict: en
+#+SPDX-FileCopyrightText: 2019-2020 Jens Lechtenbörger <https://lechten.gitlab.io/#me>
+#+SPDX-License-Identifier: CC-BY-SA-4.0
+#+STARTUP: showeverything
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
+#+HTML_HEAD: <link rel="shortcut icon" href="/favicon.ico">
+#+HTML_HEAD: <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+
+#+TITLE: Open Educational Resources on GitLab
+#+AUTHOR: Jens Lechtenbörger
+#+OPTIONS: html-style:nil
+#+OPTIONS: toc:nil
+#+KEYWORDS: open educational resources, OER, gitlab, creative commons, free software, emacs-reveal, reveal.js, presentations, slides
+#+DESCRIPTION: Open Educational Resources (OER) as GitLab Pages with CI/CD pipelines based on free software
+
+* Context
+The [[https://gitlab.com/oer][group ~oer~ at GitLab]] collects
+[[https://en.wikipedia.org/wiki/Open_educational_resources][Open
+Educational Resources (OER)]].
+In a nutshell, educational resources are /open/ if they are distributed
+under [[https://en.wikipedia.org/wiki/Free_license][free licenses]]
+(such as suitable variants of [[https://creativecommons.org/use-remix/cc-licenses/][Creative Commons licenses]]),
+guaranteeing [[https://opencontent.org/blog/archives/3221][Wiley’s
+5Rs of Openness]], namely the rights to
+/reuse/, /redistribute/, /revise/, /remix/, and /retain/.
+Consequently, OER promise to reduce entry barriers towards
+educational resources as well as to avoid redundant work when similar
+educational resources of high quality are created in different
+organizations.  I explain
+[[https://lechten.gitlab.io/talks-2019b/2019-10-22-OER.html][basics of OER in this OER presentation]];
+an
+[[https://electures.uni-muenster.de/engage/theodul/ui/core.html?id=bfd84252-634d-40d0-996a-3979a21abe3e][OER video recording (October 2019) entitled “Open Educational Resources: What, why, and how?” for that presentation is available.]]
+
+
