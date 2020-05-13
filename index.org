@@ -3,12 +3,8 @@
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 #+STARTUP: showeverything
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
-#+HTML_HEAD: <link rel="shortcut icon" href="/favicon.ico">
-#+HTML_HEAD: <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
 
 #+TITLE: Open Educational Resources on GitLab
-#+AUTHOR: Jens Lechtenbörger
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
 #+KEYWORDS: open educational resources, OER, gitlab, creative commons, free software, emacs-reveal, reveal.js, presentations, slides
