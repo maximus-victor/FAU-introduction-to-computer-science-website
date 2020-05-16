@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2017-2020 Jens Lechtenbörger
+# SPDX-License-Identifier: CC0-1.0
+
+image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:7.1.2
+
+pages:
+  stage: deploy
+  before_script:
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+  script:
+  - emacs --batch --load elisp/publish.el
+  - cp public/howto.html public/index.html
+  - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
+  artifacts:
+    paths:
+    - public
+    expire_in: 4 weeks
+  only:
+  - master
