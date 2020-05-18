@@ -3,7 +3,7 @@
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+STARTUP: showeverything
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/diss.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
 #+TITLE: Open Educational Resource (OER) presentations for an introductory course in computer science
 #+AUTHOR: Maximilian Harl
 #+OPTIONS: html-style:nil
