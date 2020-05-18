@@ -1,31 +1,118 @@
 # Local IspellDict: en
-#+SPDX-FileCopyrightText: 2019-2020 Jens Lechtenbörger <https://lechten.gitlab.io/#me>
+#+SPDX-FileCopyrightText: 2017-2020 Jens Lechtenbörger <https://lechten.gitlab.io/#me>
 #+SPDX-License-Identifier: CC-BY-SA-4.0
+
 #+STARTUP: showeverything
-
-
-#+TITLE: Open Educational Resources on GitLab
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
+#+TITLE: Open Educational Resource (OER) presentations for a course on Operating Systems
+#+AUTHOR: Jens Lechtenbörger
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
-#+KEYWORDS: open educational resources, OER, gitlab, creative commons, free software, emacs-reveal, reveal.js, presentations, slides
-#+DESCRIPTION: Open Educational Resources (OER) as GitLab Pages with CI/CD pipelines based on free software
+#+KEYWORDS: operating systems, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching
+#+DESCRIPTION: Collection of OER presentations (HTML slides and PDF documents) for university course on Operating Systems with teaching and learning strategy JiTT
 
-* Context
-The [[https://gitlab.com/oer][group ~oer~ at GitLab]] collects
-[[https://en.wikipedia.org/wiki/Open_educational_resources][Open
-Educational Resources (OER)]].
-In a nutshell, educational resources are /open/ if they are distributed
-under [[https://en.wikipedia.org/wiki/Free_license][free licenses]]
-(such as suitable variants of [[https://creativecommons.org/use-remix/cc-licenses/][Creative Commons licenses]]),
-guaranteeing [[https://opencontent.org/blog/archives/3221][Wiley’s
-5Rs of Openness]], namely the rights to
-/reuse/, /redistribute/, /revise/, /remix/, and /retain/.
-Consequently, OER promise to reduce entry barriers towards
-educational resources as well as to avoid redundant work when similar
-educational resources of high quality are created in different
-organizations.  I explain
-[[https://lechten.gitlab.io/talks-2019b/2019-10-22-OER.html][basics of OER in this OER presentation]];
-an
-[[https://electures.uni-muenster.de/engage/theodul/ui/core.html?id=bfd84252-634d-40d0-996a-3979a21abe3e][OER video recording (October 2019) entitled “Open Educational Resources: What, why, and how?” for that presentation is available.]]
+* What is this?
+This page collects
+[[https://en.wikipedia.org/wiki/Open_educational_resources][OER]]
+presentations (HTML slides with embedded audio and PDF variants, available under
+[[https://en.wikipedia.org/wiki/Free_license][free]] and open
+[[https://creativecommons.org/use-remix/cc-licenses/][Creative Commons licenses]]
+in Section [[#presentations]], preceded by usage hints in
+Section [[#hints]])
+for a course on Operating Systems (following
+the book [[https://gustavus.edu/mcs/max/os-book/][Operating Systems and Middleware: Supporting Controlled Interaction]]
+by Max Hailperin) as part of the module
+[[https://www.wi.uni-muenster.de/student-affairs/course-offerings/261893][Computer Structures and Operating Systems]]
+for 4th-term students in the Bachelor program in
+[[https://www.wi.uni-muenster.de/][Information Systems]]
+at the [[https://www.uni-muenster.de/en/][University of Münster, Germany]].
+Some background concerning the origin of this project and the adopted
+teaching and learning strategy
+[[https://jittdl.physics.iupui.edu/jitt/][Just-in-Time Teaching]]
+(JiTT; see [[https://en.wikipedia.org/wiki/Just_in_Time_Teaching][here for the Wikipedia entry]])
+is explained in its [[https://gitlab.com/oer/OS/blob/master/README.md][README]].
 
+If you are teaching or learning Operating Systems (OSs), feel free to
+use, share, and adapt my presentations.  As usual for projects on GitLab,
+you can open [[https://docs.gitlab.com/ee/user/project/issues/create_new_issue.html][issues]]
+to report bugs or suggest improvements, ideally
+with [[https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html][merge requests]].
+The document
+[[https://gitlab.com/oer/OS/blob/master/CONTRIBUTING.org][CONTRIBUTING]]
+contains some pointers for contributors.
 
+Students in Münster have taken courses on programming in Java, data
+structures and algorithms, and data modeling before taking “Computer
+Structures and Operating Systems.”  As *prerequisite* for Operating
+Systems, students should
+- be able to write, compile, and execute small /Java/ programs,
+- be able to use basic /data structures/ (stack, queue, tree) and
+  /algorithms/ (in particular, hashing);
+- also, being able to explain the database /transaction concept/ and
+  /update anomalies/ will ease understanding of presentations on
+  mutual exclusion.
+
+*Learning objectives*: After taking this course, students will be able
+- to discuss major architectures and components of modern OSs; to
+  explain and contrast processes and threads and their roles for OSs
+  and applications,
+- to explain OS data structures, algorithms, and management techniques,
+- to analyze programming challenges arising from concurrency
+  and to apply appropriate techniques addressing these challenges,
+- to discuss the notion of IT security and to apply security
+  mechanisms provided by the operating system in support of
+  secure IT systems.
+
+* Hints on reveal.js presentations
+  :PROPERTIES:
+  :CUSTOM_ID: hints
+  :END:
+#+INCLUDE: "~/.emacs.d/oer-reveal-org/reveal.js-hints.org"
+
+* Presentations
+  :PROPERTIES:
+  :CUSTOM_ID: presentations
+  :END:
+   *Note*: OER presentations (HTML slides and PDF documents) linked
+   here are generated automatically from
+   their source files (with the FLOSS software
+   [[https://gitlab.com/oer/emacs-reveal][emacs-reveal]]).
+   Presentations and source files are published under the Creative
+   Commons license
+   [[https://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+   Files are updated throughout the term (and thereafter).
+   The PDF versions provided below are generated via LaTeX from Org
+   source files.
+
+   *WARNING!* Presentations are not updated for use in 2020 yet.
+
+   [[file:index-terms.org][*List of index terms for Operating Systems*]]
+   (may simplify search for specific topics).
+
+   - Self-study presentations
+     - [[file:Operating-Systems-Overview.org][*OS Overview*]] ([[file:Operating-Systems-Overview.pdf][PDF]])
+     - [[file:Operating-Systems-Introduction.org][*OS Introduction*]] ([[file:Operating-Systems-Introduction.pdf][PDF]])
+     - [[file:Operating-Systems-Interrupts.org][*Interrupts*]] ([[file:Operating-Systems-Interrupts.pdf][PDF]])
+     - [[file:Operating-Systems-Threads.org][*Threads*]] ([[file:Operating-Systems-Threads.pdf][PDF]])
+     - [[file:Operating-Systems-Scheduling.org][*Scheduling*]] ([[file:Operating-Systems-Scheduling.pdf][PDF]])
+     - [[file:Operating-Systems-MX.org][*Mutual Exclusion (MX)*]] ([[file:Operating-Systems-MX.pdf][PDF]])
+     - [[file:Operating-Systems-MX-Java.org][*MX in Java*]] ([[file:Operating-Systems-MX-Java.pdf][PDF]])
+     - [[file:Operating-Systems-MX-Challenges.org][*MX Challenges*]] ([[file:Operating-Systems-MX-Challenges.pdf][PDF]])
+     - [[file:Operating-Systems-Memory-I.org][*Virtual Memory I*]] ([[file:Operating-Systems-Memory-I.pdf][PDF]])
+     - [[file:Operating-Systems-Memory-II.org][*Virtual Memory II*]] ([[file:Operating-Systems-Memory-II.pdf][PDF]])
+     - [[file:Operating-Systems-Processes.org][*Processes*]] ([[file:Operating-Systems-Processes.pdf][PDF]])
+     - [[file:Operating-Systems-Security.org][*Security*]] ([[file:Operating-Systems-Security.pdf][PDF]])
+   - Older presentations for classical lectures
+     - 2018: [[file:learning.org][*Learning and Teaching*]]
+     - 2019
+       - [[file:Operating-Systems-Motivation.org][*OS Motivation*]] ([[file:Operating-Systems-Motivation.pdf][PDF]])
+       - [[file:Operating-Systems-JiTT.org][*JiTT for OS*]] ([[file:Operating-Systems-JiTT.pdf][PDF]])
+
+   For offline work (also on mobile devices), you can
+   [[https://gitlab.com/oer/OS/pipelines][download the results of the latest pipeline execution on GitLab]]
+   or clone the [[https://gitlab.com/oer/OS][source repository including all necessary resources]]
+   and generate presentations yourself.
+
+* Source code and licenses
+#+MACRO: gitlablink [[https://gitlab.com/oer/OS/][$1]]
+#+INCLUDE: "~/.emacs.d/oer-reveal-org/source-code-licenses.org"
