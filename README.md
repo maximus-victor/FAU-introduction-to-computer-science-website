@@ -27,7 +27,5 @@ The exercises that I created for the course w/ solutions can be found [here](htt
 
 ```
 
-## Acknowledgments
-// I want to thank Sebastian Dunzer for letting me do this as part of IntroCS, as well as Prof. Matzner and Prof. Hart who are
-// responsible for this lecture. Furthermore, I want to thank Dr. Lechtenbörger for creating emacs-reveal for reveal.js and all 
-// his OER lectures, which made the infrastructure of this project really convenient.
+[]: # (## Acknowledgments)
+[]: # (I want to thank Sebastian Dunzer for letting me do this as part of IntroCS, as well as Prof. Matzner and Prof. Hart who are responsible for this lecture. Furthermore, I want to thank Dr. Lechtenbörger for creating emacs-reveal for reveal.js and all his OER lectures, which made the infrastructure of this project really convenient.)
