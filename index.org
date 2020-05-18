@@ -4,12 +4,12 @@
 
 #+STARTUP: showeverything
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
-#+TITLE: Open Educational Resource (OER) presentations for a course on Operating Systems
-#+AUTHOR: Jens Lechtenbörger
+#+TITLE: Open Educational Resource (OER) presentations for an Introductory Course for Computer Science
+#+AUTHOR: Maximilian Victor Harl
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
-#+KEYWORDS: operating systems, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching
-#+DESCRIPTION: Collection of OER presentations (HTML slides and PDF documents) for university course on Operating Systems with teaching and learning strategy JiTT
+#+KEYWORDS: computer science, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching, FAU, Friedrich-Alexander University, DISS, Chair of Digital Industrial Service Systems
+#+DESCRIPTION: Collection of OER presentations for an introductroy university course on computer science
 
 * What is this?
 This page collects
@@ -19,24 +19,19 @@ presentations (HTML slides with embedded audio and PDF variants, available under
 [[https://creativecommons.org/use-remix/cc-licenses/][Creative Commons licenses]]
 in Section [[#presentations]], preceded by usage hints in
 Section [[#hints]])
-for a course on Operating Systems (following
-the book [[https://gustavus.edu/mcs/max/os-book/][Operating Systems and Middleware: Supporting Controlled Interaction]]
-by Max Hailperin) as part of the module
-[[https://www.wi.uni-muenster.de/student-affairs/course-offerings/261893][Computer Structures and Operating Systems]]
-for 4th-term students in the Bachelor program in
-[[https://www.wi.uni-muenster.de/][Information Systems]]
-at the [[https://www.uni-muenster.de/en/][University of Münster, Germany]].
+for an indtroductory course on computer science as part of the module
+[[https://www.is.rw.fau.de/lehre/veranstaltungen/intro-to-cs/][Introduction to Computer Science]]
+for first semester students in the Master degree program in
+[[http://iis.fau.de/][International Information Systems]]
+at the [[https://www.fau.de/][Friedrich-Alexander University Erlangen-Nuremberg, Germany]].
 Some background concerning the origin of this project and the adopted
-teaching and learning strategy
-[[https://jittdl.physics.iupui.edu/jitt/][Just-in-Time Teaching]]
-(JiTT; see [[https://en.wikipedia.org/wiki/Just_in_Time_Teaching][here for the Wikipedia entry]])
-is explained in its [[https://gitlab.com/oer/OS/blob/master/README.md][README]].
+teaching and learning strategy is explained in its [[https://github.com/EinGartenzwerg/EinGartenzwerg.github.io/blob/master/README.md][README]].
 
-If you are teaching or learning Operating Systems (OSs), feel free to
-use, share, and adapt my presentations.  As usual for projects on GitLab,
-you can open [[https://docs.gitlab.com/ee/user/project/issues/create_new_issue.html][issues]]
+If you are teaching or learning computer science, feel free to
+use, share, and adapt my presentations.  As usual for projects on GitHub/GitLab,
+you can open [[https://help.github.com/en/enterprise/2.15/user/articles/creating-an-issue][issues]]
 to report bugs or suggest improvements, ideally
-with [[https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html][merge requests]].
+with [[https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request][pull requests]].
 The document
 [[https://gitlab.com/oer/OS/blob/master/CONTRIBUTING.org][CONTRIBUTING]]
 contains some pointers for contributors.
