@@ -6,7 +6,7 @@
 #+INCLUDE: "./config-course.org"
 #+OPTIONS: toc:1
 
-#+TITLE: Overview of Introduction to Computer Science
+#+TITLE: Overview of Computer Science
 #+KEYWORDS: computer science
 
 

@@ -1,4 +1,4 @@
-# Local IspellDict: en
+s# Local IspellDict: en
 #+SPDX-FileCopyrightText: 2020 Maximilian Harl
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -65,7 +65,7 @@ Students in the Master's degree International Information Systems have no prior 
    source files.
 
    - Self-study presentations
-     - [[file:IntroCS_overview.org][*Overview of Introduction to Computer Science*]]
+     - [[file:IntroCS_overview.org][*Overview of Computer Science*]]
 
    For offline work (also on mobile devices), you can
    [[https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io/pipelines][download the results of the latest pipeline execution on GitLab]]

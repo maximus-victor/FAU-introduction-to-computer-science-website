@@ -1,9 +1,9 @@
 # -*- eval: (visual-line-mode) -*-
 
-# Copyright (C) 2020 Maximilian Victor Harl
+# Copyright (C) 2020 Maximilian Harl
 # SPDX-License-Identifier: CC0-1.0
 
 #+DATE: Introduction to Computer Science 2020
-#+AUTHOR: Maximilian Victor Harl
+#+AUTHOR: Maximilian Harl
 
 #+INCLUDE: "./config.org"
