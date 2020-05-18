@@ -1,9 +1,9 @@
 <div style="border-bottom:none;">
 	<div align="center">
-		<img src="img/FAU_logo.svg" width="700" height="250">
+		<img src="img/FAU_logo.svg" width="700">
 		<h1>Introduction to Computer Science<h1>
 		<h3>Chair of Digital Industrial Service Systems</h3>
-		<img src="img/win_crop.png" width="400" height="170">˘
+		<img src="img/win_crop.png" height="170">˘
 	</div>
 </div>
 
