@@ -4,7 +4,7 @@
 
 #+STARTUP: showeverything
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
-#+TITLE: Open Educational Resource (OER) presentations for an Introductory Course for Computer Science
+#+TITLE: Open Educational Resource (OER) presentations for an introductory course in computer science
 #+AUTHOR: Maximilian Victor Harl
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
@@ -36,33 +36,18 @@ The document
 [[https://github.com/EinGartenzwerg/EinGartenzwerg.github.io/blob/master/CONTRIBUTING.org][CONTRIBUTING]]
 contains some pointers for contributors.
 
-Students in Münster have taken courses on programming in Java, data
-structures and algorithms, and data modeling before taking “Computer
-Structures and Operating Systems.”  As *prerequisite* for Operating
-Systems, students should
-- be able to write, compile, and execute small /Java/ programs,
-- be able to use basic /data structures/ (stack, queue, tree) and
-  /algorithms/ (in particular, hashing);
-- also, being able to explain the database /transaction concept/ and
-  /update anomalies/ will ease understanding of presentations on
-  mutual exclusion.
+Students in the Master's degree International Information Systems have no prior experience with programming or computer science. Therefore there are no prerequisites for "Introduction to Computer Science".
 
-*Learning objectives*: After taking this course, students will be able
-- to discuss major architectures and components of modern OSs; to
-  explain and contrast processes and threads and their roles for OSs
-  and applications,
-- to explain OS data structures, algorithms, and management techniques,
-- to analyze programming challenges arising from concurrency
-  and to apply appropriate techniques addressing these challenges,
-- to discuss the notion of IT security and to apply security
-  mechanisms provided by the operating system in support of
-  secure IT systems.
-
-* Hints on reveal.js presentations
-  :PROPERTIES:
-  :CUSTOM_ID: hints
-  :END:
-#+INCLUDE: "~/.emacs.d/oer-reveal-org/reveal.js-hints.org"
+*Learning objectives*: After taking this course, students will be able to
+- recognise and deduce patterns among programming problems
+- decompose problems into parts and compose solutions thereto
+- operate at multiple levels of abstraction
+- infer from first principles how computer systems work
+- assess correctness, design and style of code
+- teach yourself new programming languages
+- read code documentation and draw conclusions from specifications
+- describe symptoms of problems precisely and ask questions clearly
+- test solutions to problems, find faults, and identify corner cases
 
 * Presentations
   :PROPERTIES:
@@ -79,39 +64,22 @@ Systems, students should
    The PDF versions provided below are generated via LaTeX from Org
    source files.
 
-   *WARNING!* Presentations are not updated for use in 2020 yet.
-
-   [[file:index-terms.org][*List of index terms for Operating Systems*]]
-   (may simplify search for specific topics).
-
    - Self-study presentations
-     - [[file:Operating-Systems-Overview.org][*OS Overview*]] ([[file:Operating-Systems-Overview.pdf][PDF]])
-     - [[file:Operating-Systems-Introduction.org][*OS Introduction*]] ([[file:Operating-Systems-Introduction.pdf][PDF]])
-     - [[file:Operating-Systems-Interrupts.org][*Interrupts*]] ([[file:Operating-Systems-Interrupts.pdf][PDF]])
-     - [[file:Operating-Systems-Threads.org][*Threads*]] ([[file:Operating-Systems-Threads.pdf][PDF]])
-     - [[file:Operating-Systems-Scheduling.org][*Scheduling*]] ([[file:Operating-Systems-Scheduling.pdf][PDF]])
-     - [[file:Operating-Systems-MX.org][*Mutual Exclusion (MX)*]] ([[file:Operating-Systems-MX.pdf][PDF]])
-     - [[file:Operating-Systems-MX-Java.org][*MX in Java*]] ([[file:Operating-Systems-MX-Java.pdf][PDF]])
-     - [[file:Operating-Systems-MX-Challenges.org][*MX Challenges*]] ([[file:Operating-Systems-MX-Challenges.pdf][PDF]])
-     - [[file:Operating-Systems-Memory-I.org][*Virtual Memory I*]] ([[file:Operating-Systems-Memory-I.pdf][PDF]])
-     - [[file:Operating-Systems-Memory-II.org][*Virtual Memory II*]] ([[file:Operating-Systems-Memory-II.pdf][PDF]])
-     - [[file:Operating-Systems-Processes.org][*Processes*]] ([[file:Operating-Systems-Processes.pdf][PDF]])
-     - [[file:Operating-Systems-Security.org][*Security*]] ([[file:Operating-Systems-Security.pdf][PDF]])
-   - Older presentations for classical lectures
-     - 2018: [[file:learning.org][*Learning and Teaching*]]
-     - 2019
-       - [[file:Operating-Systems-Motivation.org][*OS Motivation*]] ([[file:Operating-Systems-Motivation.pdf][PDF]])
-       - [[file:Operating-Systems-JiTT.org][*JiTT for OS*]] ([[file:Operating-Systems-JiTT.pdf][PDF]])
+     - [[file:IntroCS_overview.org][*Overview of Introduction to Computer Science*]] ([[file:IntroCS_overview.pdf][PDF]])
 
    For offline work (also on mobile devices), you can
-   [[https://gitlab.com/oer/OS/pipelines][download the results of the latest pipeline execution on GitLab]]
-   or clone the [[https://gitlab.com/oer/OS][source repository including all necessary resources]]
+   [[https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io/pipelines][download the results of the latest pipeline execution on GitLab]]
+   or clone the [[https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io][source repository including all necessary resources]]
    and generate presentations yourself.
 
+* Hints on reveal.js presentations
+  :PROPERTIES:
+  :CUSTOM_ID: hints
+  :END:
+#+INCLUDE: "./reveal.js-hints.org"
+
 * Source code and licenses
-#+MACRO: gitlablink [[https://gitlab.com/oer/OS/][$1]]
+The structure of this repository and the hints for reveal.js are based on the [[https://gitlab.com/oer][Open Educational Ressources (OER) ressources of Jens Lechtenbörger]] and his by [[https://gitlab.com/oer/emacs-reveal][emacs-reveal]] plugin.
 
-TEST
-
-
+#+MACRO: gitlablink [[https://gitlab.com/EinGartenzwerg/IntroCS/][$1]]
 #+INCLUDE: "~/.emacs.d/oer-reveal-org/source-code-licenses.org"
