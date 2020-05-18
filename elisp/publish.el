@@ -70,7 +70,7 @@
 	:publishing-directory "./public/img"
 	:publishing-function 'org-publish-attachment
 	:recursive t)
-  (list "css"
+  (list "style"
 	:base-directory "css"
 	:base-extension (regexp-opt '("css"))
 	:publishing-directory "./public/css"
