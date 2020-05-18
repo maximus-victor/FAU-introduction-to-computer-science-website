@@ -1,0 +1,77 @@
+# -*- eval: (visual-line-mode) -*-
+
+# Copyright (C) 2017-2020 Jens Lechtenbörger
+# Copyright (C) 2020 Maximilian Victor Harl
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+#+LANGUAGE: en
+#+INCLUDE: "./mvh_config.org"
+
+# Show section numbers up to 3rd-level
+#+OPTIONS: num:3
+
+# Show page number and total number of slides
+#+OPTIONS: reveal_slide_number:c/t
+
+# Define CSS theme
+#+REVEAL_THEME: dbis
+#+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
+
+# Configure title slide
+#+REVEAL_TITLE_SLIDE: title_slide.html
+
+
+# Legalese in preamble
+#+REVEAL_PREAMBLE: <div class="legalese"><p><a href="/imprint.html">Imprint</a> | <a href="/privacy.html">Privacy Policy</a></p></div>
+
+# TODO: Rewrite for IntroCS
+#+MACRO: understandingquestion What did you find difficult or confusing about the *contents* of the presentation?  Please be as specific as possible.  For example, you could describe your current understanding (which might allow us to identify misunderstandings), ask questions that allow us to help you, or suggest improvements.  You may submit group questions as response to this task.  Most questions turn out to be of general interest; please do not hesitate to ask and answer where others can benefit.  If you created additional original content that might help others (e.g., a new exercise, an experiment, explanations concerning relationships with different courses, …), please share.
+
+# ######################################################################
+
+# The remainder of this file generates a slide for the lecture plan.
+# That code depends the list of presentations, which is defined in
+# file course-list.org.
+#+INCLUDE: "course-list.org"
+
+#+NAME: generate-plan
+#+BEGIN_SRC emacs-lisp :var number=1 :var presentations=define-presentations() :results value raw :exports none
+  (defvar oer--prev-item "   #+ATTR_HTML: :class prevtopic\n")
+  (defvar oer--curr-item "   #+ATTR_HTML: :class currtopic\n")
+  (defvar oer--next-item "   #+ATTR_HTML: :class nexttopic")
+  (defvar oer--item-no nil)
+
+  (defun oer--generate-link (triple)
+    "Generate link from TRIPLE; just text if 1st component is nil."
+    (if (and (car triple) (not (equal "nil" (car triple))))
+	(format "[[%s][%s]]" (car triple) (cadr triple))
+      (format "%s" (cadr triple))))
+
+  (defun oer--generate-item (triple)
+    "Generate list item for TRIPLE."
+    (if (equal triple (nth oer--item-no presentations))
+	(format "%s   - %s (%s)\n%s"
+		oer--curr-item
+		(oer--generate-link triple) (caddr triple)
+		oer--next-item)
+      (format "   - %s (%s)" (oer--generate-link triple) (caddr triple))))
+
+  (defun oer-generate-plan (number)
+    "Generate plan for current NUMBER."
+    (let ((oer--item-no number))
+      (concat (if (> number 0)
+		  oer--prev-item
+		"")
+	      (mapconcat 'oer--generate-item presentations "\n"))))
+
+  (format "** OS Plan
+   :PROPERTIES:
+   :reveal_data_state: no-toc-progress
+   :END:
+#+BEGIN_leftcol
+%s
+#+END_leftcol
+#+BEGIN_rightcol
+%s
+#+END_rightcol" (oer-generate-plan (- number 1)) (oer-reveal-export-attribution "./figures/OS/2020-IntroCS-overview.meta" nil "50vh" nil 'none))
+#+END_SRC
