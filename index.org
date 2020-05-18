@@ -3,9 +3,9 @@
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+STARTUP: showeverything
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/diss.css" />
 #+TITLE: Open Educational Resource (OER) presentations for an introductory course in computer science
-#+AUTHOR: Maximilian Victor Harl
+#+AUTHOR: Maximilian Harl
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
 #+KEYWORDS: computer science, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching, FAU, Friedrich-Alexander University, DISS, Chair of Digital Industrial Service Systems
