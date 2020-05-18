@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+LANGUAGE: en
-#+INCLUDE: "./mvh_config.org"
+#+INCLUDE: "./config/mvh_config.org"
 
 # Show section numbers up to 3rd-level
 #+OPTIONS: num:3
@@ -18,7 +18,7 @@
 #+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
 
 # Configure title slide
-#+REVEAL_TITLE_SLIDE: ./title_slide.html
+#+REVEAL_TITLE_SLIDE: ./config/title_slide.html
 
 
 # Legalese in preamble
