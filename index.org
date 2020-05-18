@@ -1,5 +1,5 @@
 # Local IspellDict: en
-#+SPDX-FileCopyrightText: 2020 Maximilian Harl
+#+SPDX-FileCopyrightText: 2017-2020 Jens Lechtenbörger <https://lechten.gitlab.io/#me>
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+STARTUP: showeverything
@@ -33,7 +33,7 @@ you can open [[https://help.github.com/en/enterprise/2.15/user/articles/creating
 to report bugs or suggest improvements, ideally
 with [[https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request][pull requests]].
 The document
-[[https://github.com/EinGartenzwerg/EinGartenzwerg.github.io/blob/master/CONTRIBUTING.org][CONTRIBUTING]]
+[[https://gitlab.com/oer/OS/blob/master/CONTRIBUTING.org][CONTRIBUTING]]
 contains some pointers for contributors.
 
 Students in the Master's degree International Information Systems have no prior experience with programming or computer science. Therefore there are no prerequisites for "Introduction to Computer Science".
@@ -72,9 +72,14 @@ Students in the Master's degree International Information Systems have no prior 
    or clone the [[https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io][source repository including all necessary resources]]
    and generate presentations yourself.
 
+<<<<<<< HEAD
 
 * Source code and licenses
 The structure of this repository and the hints for reveal.js are based on the [[https://gitlab.com/oer][Open Educational Ressources (OER) ressources of Jens Lechtenbörger]] and his by [[https://gitlab.com/oer/emacs-reveal][emacs-reveal]] plugin.
 
 #+MACRO: gitlablink [[https://gitlab.com/EinGartenzwerg/IntroCS/][$1]]
+=======
+* Source code and licenses
+#+MACRO: gitlablink [[https://gitlab.com/oer/OS/][$1]]
+>>>>>>> parent of e9a5474... test
 #+INCLUDE: "~/.emacs.d/oer-reveal-org/source-code-licenses.org"
