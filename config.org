@@ -14,7 +14,7 @@
 #+OPTIONS: reveal_slide_number:c/t
 
 # Define CSS theme
-#+REVEAL_THEME: dbis
+#+REVEAL_THEME: .css/diss.css
 #+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
 
 # Configure title slide
