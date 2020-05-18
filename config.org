@@ -17,6 +17,10 @@
 #+REVEAL_THEME: dbis
 #+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
 
+# Configure title slide
+#+REVEAL_TITLE_SLIDE: title_slide.html
+
+
 # Legalese in preamble
 #+REVEAL_PREAMBLE: <div class="legalese"><p><a href="/imprint.html">Imprint</a> | <a href="/privacy.html">Privacy Policy</a></p></div>
 
