@@ -15,15 +15,15 @@ The exercises that I created for the course w/ solutions can be found [here](htt
 ```
 
 +-- elisp
-|   +-- publish.el         							| Lisp File for publication with emacs-reveal
+|   +-- publish.el         			| Lisp File for publication with emacs-reveal
 +-- img
-|   +-- FAU_logo.svg 								| Logo of the FAU
-|   +-- ReWi_logo.svg 								| Logo of the Faculty for business, law and economics
-|	+-- win_crop.png 								| Logo of the Institute for Information Systems
-+-- index.org 					                    | index file for the webpage
-+-- IntroCS_overview.org                            | Lecture 0 of IntroCS
-+-- README.md 										| ReadMe
-+-- .gitlab-ci.yml    								| gitlab pipline         
+|   +-- FAU_logo.svg 				| Logo of the FAU
+|   +-- ReWi_logo.svg 				| Logo of the Faculty for business, law and economics
+|   +-- win_crop.png 				| Logo of the Institute for Information Systems
++-- index.org 					| index file for the webpage
++-- IntroCS_overview.org                       	| Lecture 0 of IntroCS
++-- README.md 					| ReadMe
++-- .gitlab-ci.yml    				| gitlab pipline         
 
 ```
 
