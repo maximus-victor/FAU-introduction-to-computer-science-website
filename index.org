@@ -76,7 +76,7 @@ Students in the Master's degree International Information Systems have no prior 
   :PROPERTIES:
   :CUSTOM_ID: hints
   :END:
-#+INCLUDE: "~/reveal.js-hints.org"
+
 
 * Source code and licenses
 The structure of this repository and the hints for reveal.js are based on the [[https://gitlab.com/oer][Open Educational Ressources (OER) ressources of Jens Lechtenbörger]] and his by [[https://gitlab.com/oer/emacs-reveal][emacs-reveal]] plugin.
