@@ -6,4 +6,4 @@
 #+DATE: Introduction to Computer Science 2020
 #+AUTHOR: Maximilian Victor Harl
 
-#+INCLUDE: "./config.org"
+#+INCLUDE: "./config/config.org"
