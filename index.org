@@ -72,14 +72,8 @@ Students in the Master's degree International Information Systems have no prior 
    or clone the [[https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io][source repository including all necessary resources]]
    and generate presentations yourself.
 
-<<<<<<< HEAD
-
 * Source code and licenses
 The structure of this repository and the hints for reveal.js are based on the [[https://gitlab.com/oer][Open Educational Ressources (OER) ressources of Jens Lechtenbörger]] and his by [[https://gitlab.com/oer/emacs-reveal][emacs-reveal]] plugin.
 
-#+MACRO: gitlablink [[https://gitlab.com/EinGartenzwerg/IntroCS/][$1]]
-=======
-* Source code and licenses
 #+MACRO: gitlablink [[https://gitlab.com/oer/OS/][$1]]
->>>>>>> parent of e9a5474... test
 #+INCLUDE: "~/.emacs.d/oer-reveal-org/source-code-licenses.org"
