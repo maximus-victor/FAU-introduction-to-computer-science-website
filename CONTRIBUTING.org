@@ -32,6 +32,6 @@ demonstrates the use of those contents in a specific class context
 
 If you want to contribute, please open an issue, propose changes, or
 submit merge/pull requests as explained for these
-[[https://github.com/EinGartenzwerg/EinGartenzwerg.github.io/blob/master/CONTRIBUTING.org][presentations on GitHub]].
+[[https://gitlab.com/oer/oer.gitlab.io/blob/master/CONTRIBUTING.org][presentations on GitHub]].
 
 In particular, if you find current presentations lacking in terms of visualizations, please help to improve the situation!
