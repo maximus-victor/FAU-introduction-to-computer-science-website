@@ -9,7 +9,7 @@
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
 #+KEYWORDS: computer science, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching, FAU, Friedrich-Alexander University, DISS, Chair of Digital Industrial Service Systems
-#+DESCRIPTION: Collection of OER presentations for an introductroy university course on computer science
+#+DESCRIPTION: Collection of OER presentations for an introductroy university course on computer science.
 
 * What is this?
 This page collects
@@ -48,6 +48,12 @@ Students in the Master's degree International Information Systems have no prior 
 - read code documentation and draw conclusions from specifications
 - describe symptoms of problems precisely and ask questions clearly
 - test solutions to problems, find faults, and identify corner cases
+
+* Hints on reveal.js presentations
+  :PROPERTIES:
+  :CUSTOM_ID: hints
+  :END:
+#+INCLUDE: "~/.emacs.d/oer-reveal-org/reveal.js-hints.org"
 
 * Presentations
   :PROPERTIES:
