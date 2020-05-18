@@ -1,7 +1,7 @@
 #+NAME: define-presentations
 #+BEGIN_SRC emacs-lisp :exports none
-  '(("file:IntroCS_overview.org" "IntroCS Overview" "Wk 24"))
+  '(("file:IntroCS_overview.org" "Overview of Computer Science" "Wk 45"))
 #+END_SRC
 
 # #+RESULTS: define-presentations
-# | file:IntroCS_overview.org  | OS Introduction       | Wk 24 |
+# | file:IntroCS_overview.org  | Overview of Computer Science	| Wk 45 |

@@ -1,13 +1,8 @@
 # -*- eval: (visual-line-mode) -*-
 
 # Copyright (C) 2017-2020 Jens Lechtenbörger
+# Copyright (C) 2020 Maximilian Victor Harl
 # SPDX-License-Identifier: CC-BY-SA-4.0
-
-# Links for 2020 Learnweb course
-#+MACRO: learnweb [[https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=42869#section-6][Learnweb]]
-#+MACRO: learnwebforum [[https://sso.uni-muenster.de/LearnWeb/learnweb2/mod/forum/view.php?id=1447215][Learnweb forum]]
-
-#+MACRO: licensepreamble This document is part of an [[https://en.wikipedia.org/wiki/Open_educational_resources][Open Educational Resource (OER)]] course on Operating Systems.  [[https://gitlab.com/oer/OS][Source code and source files are available on GitLab]] under [[https://en.wikipedia.org/wiki/Free_license][free licenses]].
 
 #+LANGUAGE: en
 #+INCLUDE: "~/.emacs.d/oer-reveal-org/config.org"
@@ -23,12 +18,13 @@
 #+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
 
 # Configure title slide
-#+INCLUDE: "~/.emacs.d/oer-reveal-org/csos.org"
+#+INCLUDE: "./title_slide.html"
 
 # Legalese in preamble
 #+REVEAL_PREAMBLE: <div class="legalese"><p><a href="/imprint.html">Imprint</a> | <a href="/privacy.html">Privacy Policy</a></p></div>
 
-#+MACRO: understandingquestion What did you find difficult or confusing about the *contents* of the presentation?  Please be as specific as possible.  For example, you could describe your current understanding (which might allow us to identify misunderstandings), ask questions that allow us to help you, or suggest improvements (maybe on [[https://gitlab.com/oer/OS][GitLab]]).  You may submit group questions as response to this task or ask questions in our shared document or the {{{learnwebforum}}}.  Most questions turn out to be of general interest; please do not hesitate to ask and answer where others can benefit.  If you created additional original content that might help others (e.g., a new exercise, an experiment, explanations concerning relationships with different courses, …), please share.
+# TODO: Rewrite for IntroCS
+#+MACRO: understandingquestion What did you find difficult or confusing about the *contents* of the presentation?  Please be as specific as possible.  For example, you could describe your current understanding (which might allow us to identify misunderstandings), ask questions that allow us to help you, or suggest improvements.  You may submit group questions as response to this task.  Most questions turn out to be of general interest; please do not hesitate to ask and answer where others can benefit.  If you created additional original content that might help others (e.g., a new exercise, an experiment, explanations concerning relationships with different courses, …), please share.
 
 # ######################################################################
 
@@ -76,5 +72,5 @@
 #+END_leftcol
 #+BEGIN_rightcol
 %s
-#+END_rightcol" (oer-generate-plan (- number 1)) (oer-reveal-export-attribution "./figures/OS/2020-OS-overview.meta" nil "50vh" nil 'none))
+#+END_rightcol" (oer-generate-plan (- number 1)) (oer-reveal-export-attribution "./figures/OS/2020-IntroCS-overview.meta" nil "50vh" nil 'none))
 #+END_SRC
