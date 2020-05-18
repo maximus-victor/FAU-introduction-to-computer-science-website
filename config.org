@@ -1,7 +1,7 @@
 # -*- eval: (visual-line-mode) -*-
 
 # Copyright (C) 2017-2020 Jens Lechtenbörger
-# Copyright (C) 2020 Maximilian Victor Harl
+# Copyright (C) 2020 Maximilian Harl
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+LANGUAGE: en
@@ -18,7 +18,7 @@
 #+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
 
 # Configure title slide
-#+REVEAL_TITLE_SLIDE: ./title_slide.html
+#+REVEAL_TITLE_SLIDE: title_slide.html
 
 
 # Legalese in preamble
