@@ -1,0 +1,37 @@
+# Local IspellDict: en
+# SPDX-Copyright: 2020 Maximilian Harl
+# SPDX-License-Identifier: CC0-1.0
+
+The goal of this project lies in the creation of
+[[https://en.wikipedia.org/wiki/Open_educational_resources][Open Educational Resources (OER)]]
+for an introductory course on computer science (IntroCS).
+Currently, most educational resources are HTML presentations that can be
+viewed in any web browser.  You do not need to know HTML to contribute
+to or adopt these resources as they a written in a simple markup
+language called [[http://orgmode.org/][Org mode]], from which HTML
+presentations based on the presentation framework
+[[https://revealjs.com/][reveal.js]] are generated automatically with
+the FLOSS software bundle
+[[https://gitlab.com/oer/emacs-reveal][emacs-reveal]] by Jens Lechtenbörger.
+
+Your contributions to presentations and its underlying software are
+very welcome!  So if you are an instructor or student working with
+these OER, please share your thoughts and improvements.
+
+So far, OER for IntroCS are generated (and branded) exclusively for use at
+the Friedrich-Alexander University Erlangen-Nuremberg, Germany, but adoption at other places and
+in other contexts would be simple if someone expressed interest in
+collaboration.  Towards that end, contents would need to be separated
+from my class-specific bits and pieces, for which a companion project
+on basics of Distributed Systems (DS) by Jens Lechtenbörger provides an example: Jens Lechtenbörger maintains
+“pure”, unbranded contents in the project
+[[https://gitlab.com/oer/cs/distributed-systems][oer/cs/distributed-systems]],
+while the project [[https://gitlab.com/oer/oer-courses/cacs][oer/oer-courses/cacs]]
+demonstrates the use of those contents in a specific class context
+(for a course on Communication and Collaboration Systems [CACS]).
+
+If you want to contribute, please open an issue, propose changes, or
+submit merge/pull requests as explained for these
+[[https://gitlab.com/oer/oer.gitlab.io/blob/master/CONTRIBUTING.org][presentations on GitHub]].
+
+In particular, if you find current presentations lacking in terms of visualizations, please help to improve the situation!
