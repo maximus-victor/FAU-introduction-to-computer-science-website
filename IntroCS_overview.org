@@ -3,7 +3,7 @@
 #+SPDX-License-Identifier: CC-BY-SA-4.0
 
 #+STARTUP: showeverything
-#+INCLUDE: "./config-course.org"
+#+INCLUDE: "./config/config-course.org"
 #+OPTIONS: toc:1
 
 #+TITLE: Overview of Introduction to Computer Science
