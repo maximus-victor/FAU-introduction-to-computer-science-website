@@ -70,6 +70,12 @@
 	:publishing-directory "./public/img"
 	:publishing-function 'org-publish-attachment
 	:recursive t)
+  (list "css"
+	:base-directory "css"
+	:base-extension (regexp-opt '("css"))
+	:publishing-directory "./public/css"
+	:publishing-function 'org-publish-attachment
+	:recursive t)
  ;  (list "title-logos"
 	; :base-directory "non-free-logos/title-slide"
 	; :base-extension (regexp-opt '("png" "jpg" "ico" "svg" "gif"))
