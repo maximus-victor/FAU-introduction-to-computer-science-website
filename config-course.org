@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 #+DATE: Introduction to Computer Science 2020
-#+AUTHOR: Maximilian Harl
+#+sublAUTHOR: Maximilian Harl
 
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/win_crop.png" sizes="32x32">
 #+INCLUDE: "./config.org"
