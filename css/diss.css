@@ -72,5 +72,5 @@
 .quizArea, .quizResults {
     zoom: 1;
     height: 530px;
-    box-shadow: none;
+    box-shadow: none !important;
 }
