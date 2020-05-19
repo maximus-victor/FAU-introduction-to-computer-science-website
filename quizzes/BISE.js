@@ -1,7 +1,7 @@
 quizGraphIntro = {
     "info": {
         "name":    "", // Should be empty with emacs-reveal
-        "main":    "Von Neumann and Hack",
+        "main":    "Graph Examples",
         "level1":  "Excellent!",          // 80-100%
         "level2":  "Please re-try.",      // 60-79%
         "level3":  "Please re-try.",      // 40-59%
