@@ -6,8 +6,8 @@
 #+INCLUDE: "./config-course.org"
 #+OPTIONS: toc:1
 
-#+TITLE: Graphs and Trees
-#+KEYWORDS: computer science, graphs, trees, oer
+#+TITLE: IntroCS: Graphs and Trees
+#+KEYWORDS: computer science, introcs, graphs, trees, oer
 
 ** Learning Objectives
 After this lecture you can...
@@ -37,15 +37,13 @@ By specifying the logical task unambiguously, solutions do not involve
 
 ** Definition of Graphs
 *** Directed Graphs
-#+BEGIN_EXPORT latex
 Definition: $G = (V,E)$ where:
-#+END_EXPORT
 - *V* is the set of all *vertices in a graph*
-	- #+BEGIN_EXPORT latex $v\inV$ #+END_EXPORT is one vertex of a graph
+	- $v\inV$ is one vertex of a graph
 	- for each vertex we dreaw one node
 - *E* is the set of all *edges in a graph
-	- #+BEGIN_EXPORT latex $e\inE$ #+END_EXPORT is one edge of a graph
-	- #+BEGIN_EXPORT latex $e = (u,v)$ #+END_EXPORT, e is a relation between two vertices
+	- $e\inE$ #+END_EXPORT is one edge of a graph
+	- $e = (u,v)$, e is a relation between two vertices
 		- u is the start vertex
 		- v is the end/destination vertex
 	- For each edge, we draw an arrow from the start to the end node

@@ -6,7 +6,7 @@
 #+INCLUDE: "./config-course.org"
 #+OPTIONS: toc:1
 
-#+TITLE: IntroCS: Overview
+#+TITLE: IntroCS: C
 #+KEYWORDS: computer science, introcs
 
 
