@@ -38,14 +38,14 @@ By specifying the logical task unambiguously, solutions do not involve
 ** Definition of Graphs
 *** Directed Graphs
 Definition: $G = (V,E)$ where:
-- *V* is the set of all *vertices in a graph*
-	- $v\inV$ is one vertex of a graph
+- *$V$* is the set of all *vertices in a graph*
+	- $v \in V$ is one vertex of a graph
 	- for each vertex we dreaw one node
-- *E* is the set of all *edges in a graph
-	- $e\inE$ #+END_EXPORT is one edge of a graph
+- *$E$* is the set of all *edges in a graph
+	- $e \in E$ is one edge of a graph
 	- $e = (u,v)$, e is a relation between two vertices
-		- u is the start vertex
-		- v is the end/destination vertex
+		- $u$ is the start vertex
+		- $v$ is the end/destination vertex
 	- For each edge, we draw an arrow from the start to the end node
 
 * Trees
