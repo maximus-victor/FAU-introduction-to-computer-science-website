@@ -1,0 +1,65 @@
+# Local IspellDict: en
+#+SPDX-FileCopyrightText: 2020 Maximilian Harl
+#+SPDX-License-Identifier: CC-BY-SA-4.0
+
+#+STARTUP: showeverything
+#+INCLUDE: "./config-course.org"
+#+OPTIONS: toc:1
+
+#+TITLE: Graphs and Trees
+#+KEYWORDS: computer science, graphs, trees, oer
+
+** Learning Objectives
+After this lecture you can...
+- define and distinguish graphs and trees
+- classify binary trees
+- insert elements in binary (search) trees
+- delete elements in binary (search) trees
+- set up data structures to store graphs and trees
+- describe self-balancing binary trees
+
+* Graphs
+	:PROPERTIES:
+	:CUSTOM_ID: graphs
+	:END:
+
+** Business Information System Engineering
+   :PROPERTIES:
+   :CUSTOM_ID: BISE
+   :END:
+   #+REVEAL_HTML: <script data-quiz="quizGraphIntro" src="./quizzes/BISE.js"></script>
+
+** History of graph theory - Euler (1736): The Seven Bridges of Königsberg
+Devise a walk through the city that would cross each of those bridges once and only once.
+By specifying the logical task unambiguously, solutions do not involve
+- reaching an island or mainland bank other than via one of the bridges
+- accessing any bridge without crossing to its other end
+
+** Definition of Graphs
+*** Directed Graphs
+#+BEGIN_EXPORT latex
+Definition: $G = (V,E)$ where:
+#+END_EXPORT
+- *V* is the set of all *vertices in a graph*
+	- #+BEGIN_EXPORT latex $v\inV$ #+END_EXPORT is one vertex of a graph
+	- for each vertex we dreaw one node
+- *E* is the set of all *edges in a graph
+	- #+BEGIN_EXPORT latex $e\inE$ #+END_EXPORT is one edge of a graph
+	- #+BEGIN_EXPORT latex $e = (u,v)$ #+END_EXPORT, e is a relation between two vertices
+		- u is the start vertex
+		- v is the end/destination vertex
+	- For each edge, we draw an arrow from the start to the end node
+
+* Trees
+    :PROPERTIES:
+    :CUSTOM_ID: trees
+    :END:
+
+#+BEGIN_NOTES
+Test
+#+END_NOTES
+
+
+
+* First Level 2
+** Second Level 2
