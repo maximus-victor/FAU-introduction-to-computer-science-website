@@ -4,10 +4,12 @@
 
 #+STARTUP: showeverything
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./reveal.js/css/theme/index.css" />
-#+TITLE: Open Educational Resource (OER) presentations for an introductory course in computer science
-#+AUTHOR: Maximilian Harl
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/win_crop.png" sizes="32x32">
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:nil
+
+#+TITLE: Open Educational Resource (OER) presentations for an introductory course in computer science
+#+AUTHOR: Maximilian Harl
 #+KEYWORDS: computer science, OER, open educational resources, creative commons, free and open license, presentations, slides, JiTT, just-in-time teaching, FAU, Friedrich-Alexander University, DISS, Chair of Digital Industrial Service Systems
 #+DESCRIPTION: Collection of OER presentations for an introductroy university course on computer science.
 
