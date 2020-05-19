@@ -1,9 +1,9 @@
 <div style="border-bottom:none;">
 	<div align="center">
-		<img src="img/FAU_logo.svg" width="700" height="250">
-		<h1>Introduction to Computer Science<h1>
+		<img src="img/FAU_logo.png" width="700">
+		<h1><b>Introduction to Computer Science</b></h1>
 		<h3>Chair of Digital Industrial Service Systems</h3>
-		<img src="img/win_crop.png" width="400" height="170">˘
+		<img src="img/win_crop.png" height="170">˘
 	</div>
 </div>
 
@@ -15,17 +15,17 @@ The exercises that I created for the course w/ solutions can be found [here](htt
 ```
 
 +-- elisp
-|   +-- publish.el         							| Lisp File for publication with emacs-reveal
+|   +-- publish.el         			| Lisp File for publication with emacs-reveal
 +-- img
-|   +-- FAU_logo.svg 								| Logo of the FAU
-|   +-- ReWi_logo.svg 								| Logo of the Faculty for business, law and economics
-|	+-- win_crop.png 								| Logo of the Institute for Information Systems
-+-- index.org 					                    | index file for the webpage
-+-- IntroCS_overview.org                            | Lecture 0 of IntroCS
-+-- README.md 										| ReadMe
-+-- .gitlab-ci.yml    								| gitlab pipline         
+|   +-- FAU_logo.svg 				| Logo of the FAU
+|   +-- ReWi_logo.svg 				| Logo of the Faculty for business, law and economics
+|   +-- win_crop.png 				| Logo of the Institute for Information Systems
++-- index.org 					| index file for the webpage
++-- IntroCS_overview.org                       	| Lecture 0 of IntroCS
++-- README.md 					| ReadMe
++-- .gitlab-ci.yml    				| gitlab pipline         
 
 ```
 
-## Acknowledgments
-I want to thank Sebastian Dunzer for letting me do this as part of IntroCS, as well as Prof. Matzner and Prof. Hart who are responsible for this lecture. Furthermore, I want to thank Dr. Lechtenbörger for creating emacs-reveal for reveal.js and all his OER lectures, which made the infrastructure of this project really convenient.
+<!---  ## Acknowledgments
+I want to thank Sebastian Dunzer for letting me do this as part of IntroCS, as well as Prof. Matzner and Prof. Hart who are responsible for this lecture. Furthermore, I want to thank Dr. Lechtenbörger for creating emacs-reveal for reveal.js and all his OER lectures, which made the infrastructure of this project really convenient. --->
