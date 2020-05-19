@@ -27,7 +27,7 @@ After this lecture you can...
    :PROPERTIES:
    :CUSTOM_ID: BISE
    :END:
-   #+REVEAL_HTML: <script data-quiz="quizGraphIntro" src="./quizzes/BISE.js"></script>
+#+REVEAL_HTML: <script data-quiz="quizGraphIntro" src="./quizzes/BISE.js"></script>
 
 ** History of graph theory - Euler (1736): The Seven Bridges of Königsberg
 Devise a walk through the city that would cross each of those bridges once and only once.
@@ -41,7 +41,7 @@ Definition: $G = (V,E)$ where:
 - *$V$* is the set of all *vertices in a graph*
 	- $v \in V$ is one vertex of a graph
 	- for each vertex we dreaw one node
-- *$E$* is the set of all *edges in a graph
+- *$E$* is the set of all *edges in a graph*
 	- $e \in E$ is one edge of a graph
 	- $e = (u,v)$, e is a relation between two vertices
 		- $u$ is the start vertex
