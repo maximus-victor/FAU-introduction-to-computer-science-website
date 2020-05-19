@@ -76,25 +76,11 @@
 	:publishing-directory "./public/css"
 	:publishing-function 'org-publish-attachment
 	:recursive t)
- ;  (list "title-logos"
-	; :base-directory "non-free-logos/title-slide"
-	; :base-extension (regexp-opt '("png" "jpg" "ico" "svg" "gif"))
-	; :publishing-directory "./public/title-slide"
-	; :publishing-function 'org-publish-attachment)
- ;  (list "theme-logos"
-	; :base-directory "non-free-logos/reveal-css"
-	; :base-extension (regexp-opt '("png" "jpg" "ico" "svg" "gif"))
-	; :publishing-directory "./public/reveal.js/css/theme"
-	; :publishing-function 'org-publish-attachment)
- ;  (list "eval"
-	; :base-directory "eval"
-	; :base-extension (regexp-opt '("ods" "csv"))
-	; :publishing-directory "./public/eval"
-	; :publishing-function 'org-publish-attachment)
- ;  (list "redirect"
-	; :base-directory "redirect"
-	; :base-extension 'any
-	; :publishing-directory "./public"
-	; :publishing-function 'org-publish-attachment)
+  (list "conf"
+	:base-directory "config"
+	:base-extension (regexp-opt '("org"))
+	:publishing-directory "./public/config"
+	:publishing-function 'org-publish-attachment
+	:recursive t)
   ))
 ;;; publish.el ends here
