@@ -76,11 +76,5 @@
 	:publishing-directory "./public/css"
 	:publishing-function 'org-publish-attachment
 	:recursive t)
-  (list "conf"
-	:base-directory "config"
-	:base-extension (regexp-opt '("org"))
-	:publishing-directory "./public/config"
-	:publishing-function 'org-publish-attachment
-	:recursive t)
   ))
 ;;; publish.el ends here
