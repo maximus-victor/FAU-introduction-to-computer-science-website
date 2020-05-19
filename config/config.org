@@ -14,17 +14,15 @@
 #+OPTIONS: reveal_slide_number:c/t
 
 # Define CSS theme
-#+REVEAL_EXTRA_CSS: ./css/diss.css
-#+REVEAL_EXTRA_CSS: ./reveal.js/css/theme/oer-reveal.css
+#+REVEAL_EXTRA_CSS: ../css/diss.css
+#+REVEAL_EXTRA_CSS: ../reveal.js/css/theme/oer-reveal.css
 
 # Configure title slide
 #+REVEAL_TITLE_SLIDE: title_slide.html
 
-
 # Legalese in preamble
 #+REVEAL_PREAMBLE: <div class="legalese"><p><a href="/imprint.html">Imprint</a> | <a href="/privacy.html">Privacy Policy</a></p></div>
 
-# TODO: Rewrite for IntroCS
 #+MACRO: understandingquestion What did you find difficult or confusing about the *contents* of the presentation?  Please be as specific as possible.  For example, you could describe your current understanding (which might allow us to identify misunderstandings), ask questions that allow us to help you, or suggest improvements.  You may submit group questions as response to this task.  Most questions turn out to be of general interest; please do not hesitate to ask and answer where others can benefit.  If you created additional original content that might help others (e.g., a new exercise, an experiment, explanations concerning relationships with different courses, …), please share.
 
 # ######################################################################
