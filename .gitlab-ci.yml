@@ -9,6 +9,8 @@ pages:
   - git submodule sync --recursive
   - git submodule update --init --recursive
   script:
+  - bundle install
+  - bundle exec jekyll build -d public
   - emacs --batch --load elisp/publish.el
   - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
