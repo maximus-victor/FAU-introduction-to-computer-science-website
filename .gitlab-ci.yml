@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2020 Maximilian Harl
 # SPDX-License-Identifier: CC0-1.0
 
-prepare:
+prepare_page:
   image: ruby:2.6
   script:
     - bundle install
@@ -20,6 +20,8 @@ pages:
   - git submodule sync --recursive
   - git submodule update --init --recursive
   script:
+  - mkdir -p ./public
+  - cp ./* ./public/
   - emacs --batch --load elisp/publish.el
   - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
