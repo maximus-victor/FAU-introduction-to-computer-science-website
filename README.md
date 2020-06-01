@@ -23,7 +23,6 @@ The exercises that I created for the course w/ solutions can be found [here](htt
 +-- IntroCS_overview.org                       	| Lecture 0 of IntroCS
 +-- README.md 					| ReadMe
 +-- .gitlab-ci.yml    				| gitlab pipline         
-
 ```
 
 <!---  ## Acknowledgments
