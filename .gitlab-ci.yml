@@ -6,7 +6,7 @@ prepare:
   image: ruby:2.6
   script:
     - bundle install
-    - bundle exec jekyll build -d public
+    - bundle exec jekyll build -d public/home
   artifacts:
     paths:
       - public/home
