@@ -13,7 +13,6 @@ The exercises that I created for the course w/ solutions can be found [here](htt
 
 ## Structure of this repository
 ```
-
 +-- elisp
 |   +-- publish.el         			| Lisp File for publication with emacs-reveal
 +-- img
