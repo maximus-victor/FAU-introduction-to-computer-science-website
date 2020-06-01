@@ -6,10 +6,10 @@ prepare_page:
   image: ruby:2.6
   script:
     - bundle install
-    - bundle exec jekyll build -d public
+    - bundle exec jekyll build -d .public
   artifacts:
     paths:
-      - public
+      - .public
   only:
     - master
 
@@ -20,7 +20,6 @@ pages:
   - git submodule sync --recursive
   - git submodule update --init --recursive
   script:
-  - mkdir .public
   - cp -r * .public
   - mv .public public
   - emacs --batch --load elisp/publish.el
