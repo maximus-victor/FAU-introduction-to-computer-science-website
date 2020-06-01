@@ -9,7 +9,7 @@ prepare_page:
     - bundle exec jekyll build
   artifacts:
     paths:
-      - page_
+      - _site
   only:
     - master
 
