@@ -1,9 +1,4 @@
 source "https://rubygems.org"
-gem 'jekyll'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
-gem 'jekyll-seo-tag'
-gem 'jemoji'
-gem 'jekyll-readme-index'
-gem "jekyll-remote-theme"
-gem "jekyll-default-layout"
+gem 'jekyll-theme-cs50'
+gem 'github-pages', group: :jekyll_plugins
+
