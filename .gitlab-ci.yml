@@ -21,7 +21,7 @@ pages:
   - git submodule update --init --recursive
   script:
   - mkdir -p ./public
-  - cp -R ./page_/* ./public/
+  - cp -R ./page_ ./public/
   - emacs --batch --load elisp/publish.el
   - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
