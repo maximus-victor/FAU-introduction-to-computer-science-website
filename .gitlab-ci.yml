@@ -6,10 +6,10 @@ prepare:
   image: ruby:2.6
   script:
     - bundle install
-    - bundle exec jekyll build -d public/home
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
-      - public/home
+      - public
   only:
     - master
 
