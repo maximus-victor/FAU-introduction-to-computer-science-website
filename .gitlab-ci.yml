@@ -13,6 +13,7 @@ prepare_page:
   only:
     - master
 
+
 pages:
   image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
   stage: deploy
