@@ -6,10 +6,10 @@ prepare_page:
   image: ruby:2.6
   script:
     - bundle install
-    - bundle exec jekyll build -d page_
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
-      - page_
+      - public
   only:
     - master
 
@@ -21,7 +21,7 @@ pages:
   - git submodule update --init --recursive
   script:
   - mkdir -p ./public
-  - cp -R ./page_ ./public/
+  - mv -R ./public/ ./public/
   - cd _landing_page/ | emacs --batch --load _landing_page/elisp/publish.el
   - cd _landing_page/ | find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
