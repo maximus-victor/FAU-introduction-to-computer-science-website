@@ -22,8 +22,8 @@ pages:
   script:
   - mkdir -p ./public
   - cp -R ./page_ ./public/
-  - cd _landing_page | emacs --batch --load elisp/publish.el
-  - cd _landing_page | find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
+  - emacs --batch --load _landing_page/elisp/publish.el
+  - cd _landing_page/ | find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
     paths:
     - public
