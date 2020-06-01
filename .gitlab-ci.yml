@@ -1,9 +1,9 @@
 # SPDX-FileCopyrightText: 2017-2020 Jens Lechtenbörger
+# SPDX-FileCopyrightText: 2020 Maximilian Harl
 # SPDX-License-Identifier: CC0-1.0
 
-image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
-
 prepare:
+  image: ruby:2.6
   script:
     - bundle install
     - bundle exec jekyll build -d public
@@ -14,6 +14,7 @@ prepare:
     - master
 
 pages:
+  image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
   stage: deploy
   before_script:
   - git submodule sync --recursive
