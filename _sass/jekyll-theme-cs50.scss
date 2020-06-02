@@ -2,7 +2,7 @@
 $font-family-sans-serif: "PT Sans" !default;
 
 // Crimson links
-$link-color: #a51c30 !default;
+$link-color: #8D1429 !default;
 $link-hover-color: $link-color !default;
 
 // Import Bootstrap
@@ -17,7 +17,7 @@ $link-hover-color: $link-color !default;
 
 // Root em
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 // Defaults for iframes
@@ -58,7 +58,7 @@ aside.col-md {
 // Fixed width, scroll on larger devices
 @include media-breakpoint-up(md) {
   aside.col-md {
-    flex: 0 1 20rem;
+    flex: 0 1 18rem;
     @supports (position: sticky) {
       height: 100vh;
       overflow-y: auto;
@@ -167,7 +167,7 @@ main.col-md {
 // Override Primer's family and size for fonts
 .markdown-body {
   font-family: inherit; /* Use our family */
-  font-size: 10px; /* Use our size */
+  font-size: 16px !important; /* Use our size */
 }
 
 // Add padding above headings to match Primer's padding below headings,
