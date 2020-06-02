@@ -1,5 +1,6 @@
 permalink: pretty
-include: [IntroCS]
+
+source: public/
 
 theme: jekyll-theme-cs50
 
