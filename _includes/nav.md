@@ -17,6 +17,6 @@
 
 ***
 
-* [Curriculum]({{ "/curriculum" | relative_url }})
+* [Curriculum]({{ "/landing_page/introcs_curriculum" | relative_url }})
 * [Tools]({{ "/tools" | relative_url }})
 * [Syllabus]({{"/syllabus" | relative_url }})
