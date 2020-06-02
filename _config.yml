@@ -1,6 +1,6 @@
 permalink: pretty
 
-source: public/
+source: ./
 
 theme: jekyll-theme-cs50
 
