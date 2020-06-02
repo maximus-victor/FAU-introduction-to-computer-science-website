@@ -9,6 +9,8 @@ prepare_pages:
   script:
     - emacs --batch --load elisp/publish.el
     - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
+    - mkdir -p public/home
+    - mv . public/home
   artifacts:
     paths:
       - public/home
