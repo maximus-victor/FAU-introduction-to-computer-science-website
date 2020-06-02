@@ -17,7 +17,7 @@ $link-hover-color: $link-color !default;
 
 // Root em
 html {
-  font-size: 10px;
+  font-size: 18px;
 }
 
 // Defaults for iframes
@@ -167,7 +167,7 @@ main.col-md {
 // Override Primer's family and size for fonts
 .markdown-body {
   font-family: inherit; /* Use our family */
-  font-size: inherit; /* Use our size */
+  font-size: 10px; /* Use our size */
 }
 
 // Add padding above headings to match Primer's padding below headings,
