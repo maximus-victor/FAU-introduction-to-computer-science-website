@@ -5,7 +5,7 @@
 
 ***
 
-* [Status Page](https://cs50.statuspage.io/)
+* [Week 0](https://cs50.statuspage.io/)
 * [Style Guide](https://cs50.readthedocs.io/style/c/)
 
 ***
