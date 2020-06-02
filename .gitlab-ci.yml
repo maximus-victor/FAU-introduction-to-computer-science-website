@@ -4,7 +4,7 @@
 
 # build landing page with ruby and jekyll
 prepare_page:
-  image: ruby:2.6
+  image: ruby:3.7
   script:
     - bundle install
     - bundle exec jekyll build -d .public

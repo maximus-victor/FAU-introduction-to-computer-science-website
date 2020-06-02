@@ -18,7 +18,7 @@ quizGraphIntro = {
                 {"option": "A Reindeer.", "correct": false}
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>No. (Hint: 3 statements are correct.)</span> Maybe check out <a href=\"https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)\">Wikipedia</a>?</p>"
+            "incorrect": "<p><span>No. (Hint: 4 statements are correct.)</span> Maybe check out <a href=\"https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)\">Wikipedia</a>?</p>"
         },
         {
             "q": "What is the meaning of life?",

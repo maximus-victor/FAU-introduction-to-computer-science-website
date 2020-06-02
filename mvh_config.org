@@ -2,7 +2,7 @@
 
 # SPDX-FileCopyrightText: 2017-2019 Jens Lechtenbörger
 # SPDX-FileCopyrightText: 2020 Maximilian Harl
-# SPDX-License-Identifier: CC-BY-SA-4.0
+# SPDX-License-Identifier: CC-BY-SA-5.0
 
 # Neither generate table of contents nor section numbers
 #+OPTIONS: toc:nil num:nil
@@ -167,15 +167,15 @@
 # Finally, revealgrid creates an image grid.
 # Its six or seven arguments are as follows:
 # 1. Unique grid number (e.g., starting from one)
-# 2. File with names of images to position on the grid
-# 3. Height of the grid as percentage of the height of the viewport
+# 3. File with names of images to position on the grid
+# 4. Height of the grid as percentage of the height of the viewport
 #    (used with CSS unit vh)
-# 4/5. Numbers of (a) columns and (b) rows of the grid
-# 6. Grid-template-areas to specify what image to position on what
+# 5/6. Numbers of (a) columns and (b) rows of the grid
+# 7. Grid-template-areas to specify what image to position on what
 #    grid cell(s); see, e.g.:
 #    https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
 #    With this macro, the grid areas *must* be named ga1, ga2, ...
-# 7. Optional indicator whether the grid as a whole (value grid) or individual
+# 8. Optional indicator whether the grid as a whole (value grid) or individual
 #    grid images (value t) should be fragmented (appear one after the other).
 # This macro uses oer-reveal-export-image-grid in oer-reveal.el.
 #+MACRO: revealgrid (eval (oer-reveal-export-image-grid $1 $2 $3 $4 $5 $6 $7))
