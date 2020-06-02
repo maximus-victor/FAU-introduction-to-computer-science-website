@@ -1,6 +1,6 @@
 ---
 title: false
-permalink: /
+permalink: IntroCS/
 ---
 
 # Hello, world!
