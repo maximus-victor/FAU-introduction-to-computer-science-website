@@ -34,7 +34,7 @@ contains some pointers for contributors.
 
 Students in the Master's degree International Information Systems have no prior experience with programming or computer science. Therefore there are no prerequisites for "Introduction to Computer Science".
 
-*Learning objectives*: After taking this course, students will be able to
+**Learning objectives**: After taking this course, students will be able to
 - recognise and deduce patterns among programming problems
 - decompose problems into parts and compose solutions thereto
 - operate at multiple levels of abstraction
@@ -46,7 +46,7 @@ Students in the Master's degree International Information Systems have no prior 
 - test solutions to problems, find faults, and identify corner cases
 
 ## Presentations
-*Note*: OER presentations (HTML slides and PDF documents) linked
+**Note**: OER presentations (HTML slides and PDF documents) linked
 here are generated automatically from
 their source files (with the FLOSS software
 [emacs-reveal](https://gitlab.com/oer/emacs-reveal)).
@@ -57,10 +57,10 @@ Files are updated throughout the term (and thereafter).
 The PDF versions provided below are generated via LaTeX from Org
 source files.
 
-- Self-study presentations
- - [**Overview of Computer Science**]({{ "/IntroCS_overview.org" | relative_url }}) ([**PDF**]({{ "/IntroCS_overview.pdf" | relative_url }}))
- - [**C**]({{ "/IntroCS_C.org" | relative_url }}) ([**PDF**]({{ "/IntroCS_C.pdf" | relative_url }}))
- - [**Graphs and Trees**]({{ "/IntroCS_graphs_trees.org" | relative_url }}) ([**PDF**]({{ "/IntroCS_graphs_trees.pdf" | relative_url }}))
+### Self-study presentations
+ - [**Overview of Computer Science**]({{ "/IntroCS_overview.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_overview.pdf" | relative_url }}))
+ - [**C**]({{ "/IntroCS_C.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_C.pdf" | relative_url }}))
+ - [**Graphs and Trees**]({{ "/IntroCS_graphs_trees.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_graphs_trees.pdf" | relative_url }}))
 
 For offline work (also on mobile devices), you can
 [download the results of the latest pipeline execution on GitLab](https://gitlab.com/EinGartenzwerg/EinGartenzwerg-github-io/pipelines)

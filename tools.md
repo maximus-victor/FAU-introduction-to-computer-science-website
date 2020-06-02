@@ -1,4 +1,6 @@
-# CS50 Tools
+# IntroCS Tools
+
+@@include[reveal.js-hints.md](_includes/reveal.js-hints.md)
 
 <iframe title="Tools" src="{{'/assets/pdfs/tools.pdf' | relative_url }}" width="838" height="1130" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
 
