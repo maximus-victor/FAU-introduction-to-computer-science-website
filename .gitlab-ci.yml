@@ -20,7 +20,6 @@ pages:
   - git submodule sync --recursive
   - git submodule update --init --recursive
   script:
-  - mv .public/index.html .public/index2.html
   - cp -r * .public
   - mv .public public
   - emacs --batch --load elisp/publish.el
