@@ -1,5 +1,6 @@
 ---
 title: false
+permalink: /
 ---
 
 # Hello, world!
