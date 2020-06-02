@@ -1,5 +1,7 @@
 permalink: pretty
 
+baseurl: "IntroCS/"
+
 source: ./
 
 theme: jekyll-theme-cs50
