@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2020 Maximilian Harl
 # SPDX-License-Identifier: CC0-1.0
 
+# build landing page with ruby and jekyll
 prepare_page:
   image: ruby:2.6
   script:
@@ -13,6 +14,7 @@ prepare_page:
   only:
     - master
 
+# build reveal.js presenations with emacs-reveal
 pages:
   image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
   stage: deploy

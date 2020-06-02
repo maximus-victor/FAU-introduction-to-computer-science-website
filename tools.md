@@ -10,26 +10,22 @@
 
 ## CS50 Sandbox
 
-Temporary programming environments for students and teachers
-<https://sandbox.cs50.io/>
+Temporary programming environments for students <https://sandbox.cs50.io/>
 
 ## CS50 IDE
 
-CS50 IDE is a cloud-based Integrated Development Environment powered by AWS Cloud9 that features a cloud-based Ubuntu environment. Since it’s cloud-based, you can continue working on your problem sets even if you use a different computer!
-
+CS50 IDE is a cloud-based Integrated Development Environment powered by AWS Cloud9 that features a cloud-based Ubuntu environment.
 You can also share your workspace with others. Visit [https://cs50.readthedocs.io/ide/online/#sharing-your-workspace](https://cs50.readthedocs.io/ide/online/#sharing-your-workspace) for more information.
 
 ## Command-Line Tools
 
-#### `help50`
+#### `help50` - CS50 prettifier for compiler and valgrind messages
 
-Prints less arcane compiler and Valgrind messages  
 Usage: `help50 ./program command line args` or  
 `help50 valgrind ./program command line args`
 
-#### `debug50`
+#### `debug50` - CS50 debugger 
 
-Runs a program step by step, line by line, to see what is happening  
 Usage: `debug50 ./program command line args`
 
 #### `style50`
@@ -37,9 +33,8 @@ Usage: `debug50 ./program command line args`
 Checks for alignment to the [CS50 style guide](https://cs50.readthedocs.io/style/c/)  
 Usage: `style50 program.c`
 
-#### `check50`
-
-Checks for correctness using test cases  
+#### `check50` - CS50 checks runner
+ 
 Usage: `check50 cs50/problems/2018/ap/problem_name`
 
 ## CS50 Documentation

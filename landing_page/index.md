@@ -1,8 +1,8 @@
 ---
-title: false
+title: IntroCS
 ---
 
-# Hello, world!
+# Hello, world! - gz. Maximilian Harl
 
 This is IntroCS, an introductory course to computer science especially for the master's degree program in International Information Systems at the Friedrich-Alexander University.
 
@@ -16,7 +16,7 @@ presentations (HTML slides with embedded audio and PDF variants, available under
 [free](https://en.wikipedia.org/wiki/Free_license) and open
 [Creative Commons licenses](https://creativecommons.org/use-remix/cc-licenses/)
 in Section [Presentations](#presentations), preceded by usage hints in
-Section [Hints](#hints))for an indtroductory course on computer science as part of the module
+Section [Tools]({{ "/tools.html" | relative_url }}))for an indtroductory course on computer science as part of the module
 [Introduction to Computer Science](https://www.is.rw.fau.de/lehre/veranstaltungen/intro-to-cs/)
 for first semester students in the Master degree program in
 [International Information Systems](http://iis.fau.de/)
