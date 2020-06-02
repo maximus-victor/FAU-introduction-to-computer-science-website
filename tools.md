@@ -1,10 +1,12 @@
 # IntroCS Tools
 
+## reveal.js Presentations
 {% include reveal.js-hints.md %}
 
-<iframe title="Tools" src="{{'/assets/pdfs/tools.pdf' | relative_url }}" width="838" height="1130" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<!--<iframe title="Tools" src="{{'/assets/pdfs/tools.pdf' | relative_url }}" width="838" height="1130" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>-->
 
 ---
+# CS50 Tools
 
 ## CS50 Sandbox
 
@@ -40,6 +42,6 @@ Usage: `style50 program.c`
 Checks for correctness using test cases  
 Usage: `check50 cs50/problems/2018/ap/problem_name`
 
-## Documentation
+## CS50 Documentation
 
 <https://cs50.readthedocs.io/>

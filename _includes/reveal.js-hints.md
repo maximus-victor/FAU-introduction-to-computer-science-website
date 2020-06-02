@@ -1,11 +1,7 @@
-# Local IspellDict: en
-# SPDX-FileCopyrightText: 2020 Maximilian Harl
-# SPDX-License-Identifier: CC-BY-SA-4.0
-
 Presentations are generated with
 [emacs-reveal](https://gitlab.com/oer/emacs-reveal)
 and make use of the HTML presentation framework
-[[https://revealjs.com/][reveal.js]].
+[reveal.js](https://revealjs.com/).
 
 - Key bindings and navigation
   - Press “?” to see key bindings of reveal.js
@@ -21,7 +17,7 @@ and make use of the HTML presentation framework
 - PDF export
   - Why do you want to do this?
     - You may want to download and annotate/enrich source files instead
-      - [[https://orgmode.org/][Org mode]], which is plain text
+      - [Org mode](https://orgmode.org/), which is plain text
   - Change the URL by adding ~?print-pdf~ after ~.html~,
     then print to PDF file (usually, Ctrl-p)
   - Alternatively, depending on the specific project, PDFs might also
@@ -33,21 +29,20 @@ and make use of the HTML presentation framework
     source projects as self-contained zip archives
     - Extract contents and open local HTML file(s) in browser
     - E.g., for a course on Operating Systems, go to
-      [[https://gitlab.com/oer/OS/pipelines][its pipelines page]],
+      [its pipelines page](https://gitlab.com/oer/OS/pipelines),
       click on download icon of most recent pipeline
   - Alternatively, clone source repository and build presentations locally
 - Audio
-  - If audio is embedded, [[https://en.wikipedia.org/wiki/Ogg][the free Ogg format]] is used
+  - If audio is embedded, [the free Ogg format](https://en.wikipedia.org/wiki/Ogg) is used
     - Based on student feedback, playback does /not/ start automatically
-      - See [[https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow#user-content-compatibility-and-known-issues][compatibility and known issues of the underlying audio plugin]]
-      - [[https://www.mozilla.org/en-US/firefox/][Firefox]],
+      - See [compatibility and known issues of the underlying audio plugin](https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow#user-content-compatibility-and-known-issues)
+      - [Firefox](https://www.mozilla.org/en-US/firefox/),
         seems to work everywhere
     - Audio controls are shown at bottom left (use right-click for
       more controls such as Play Speed)
 - Notes
   - Slides contain additional notes as plain text if you see the
     folder icon
-    [[./reveal.js/css/theme/folder_inbox.png]]
     - Press “v” to open the “courseware view” or click on that icon or
       press “s” to see the “speaker notes view”
       - For the speaker notes view you need to allow pop-ups
@@ -65,7 +60,7 @@ and make use of the HTML presentation framework
         an upcoming (▸) slide
     - Special link icon for “non-local” links
       - E.g., in this
-        [[https://moz.com/learn/seo/external-link][external link to a page explaining external links]],
+        [external link to a page explaining external links](https://moz.com/learn/seo/external-link),
         which are typically served by independent organizations with
         their own agendas, with or without their own privacy policies
       - But also for links between different presentations (in
@@ -77,7 +72,6 @@ and make use of the HTML presentation framework
       - Relative within presentation (blue), either with backward (◂) or
         forward (▸) indicator
 
-The document
-[[https://gitlab.com/EinGartenzwerg/IntroCS/-/blob/master/CONTRIBUTING.org][CONTRIBUTING.org]]
+The document [CONTRIBUTING.org](https://gitlab.com/EinGartenzwerg/IntroCS/-/blob/master/CONTRIBUTING.org)
 contains hints on how to provide feedback or contribute improvements.
 
