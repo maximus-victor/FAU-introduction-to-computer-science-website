@@ -1,4 +1,4 @@
-# CS50 Core Curriculum
+# IntroCS Curriculum
 
 * [Chapter 0](0)
 * [Chapter 1](1)
@@ -9,8 +9,6 @@
 * [Chapter 6](7)
 * [Chapter 7](8)
 * [Chapter 8](9)
-
-# AP Modules
 
 * [Understanding Technology](understanding_technology)
 * [Data Science](data_science)
