@@ -1,30 +1,32 @@
+# SPDX-FileCopyrightText: 2017-2020 Jens Lechtenbörger
 # SPDX-FileCopyrightText: 2020 Maximilian Harl
 # SPDX-License-Identifier: CC0-1.0
 
-prepare_pages:
-  image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
-  before_script:
-    - git submodule sync --recursive
-    - git submodule update --init --recursive
+prepare_page:
+  image: ruby:2.6
   script:
-    - emacs --batch --load elisp/publish.el
-    - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
-    - mkdir -p public/home
-    - mv . public/home
+    - bundle install
+    - bundle exec jekyll build -d .public
   artifacts:
     paths:
-      - public/home
+      - .public
   only:
     - master
 
 pages:
-  image: ruby:2.6
+  image: registry.gitlab.com/oer/emacs-reveal/emacs-reveal:latest
+  stage: deploy
+  before_script:
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
   script:
-    - bundle install
-    - bundle exec jekyll build -d public
+  - cp -r * .public
+  - mv .public public
+  - emacs --batch --load elisp/publish.el
+  - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - master
+  - master
 
