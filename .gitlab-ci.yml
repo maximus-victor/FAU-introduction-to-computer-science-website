@@ -20,8 +20,9 @@ pages:
   - git submodule sync --recursive
   - git submodule update --init --recursive
   script:
+  - mv .public/index.html .public/index2.html
   - cp -r * .public
-  - mv .public/* public
+  - mv .public public
   - emacs --batch --load elisp/publish.el
   - find public -type f -regex '.*\.\(html\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
