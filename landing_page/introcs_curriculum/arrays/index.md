@@ -1,8 +1,18 @@
 # Arrays
+{:.no_toc}
+
+TODO: Update Links
 
 <iframe width="1680" height="909" src="https://www.youtube.com/embed/8PrOp9t0PyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [Notes](notes)
+## Overview
+{:.no_toc}
+
+* TOC
+{:toc}
+
+***
+
 * Cheat Sheets:
   * [Arrays and Strings]({{ "/assets/pdfs/arrays_and_strings.pdf" | relative_url }})
   * [Typecasting]({{ "/assets/pdfs/typecasting.pdf" | relative_url }})
