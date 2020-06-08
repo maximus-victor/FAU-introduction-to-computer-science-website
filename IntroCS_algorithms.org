@@ -6,5 +6,68 @@
 #+INCLUDE: "./config-course.org"
 #+OPTIONS: toc:1
 
-#+TITLE: IntroCS: Graphs and Trees
-#+KEYWORDS: computer science, introcs, graphs, trees, oer
+#+TITLE: IntroCS: Algorithms
+#+KEYWORDS: computer science, introcs, algorithms, sorting, search, complexity
+
+** Learning Objectives
+After this lecture you can...
+- Being able to assess and implement new Sorting Algorithms
+- Being able to assess and implement new Searching Algorithms
+- Being able to implement and recognize recursive programs
+- Asess the complexity of given algorithms
+
+* Searching
+	:PROPERTIES:
+	:CUSTOM_ID:
+	:END:
+
+** Linear Search
+   :PROPERTIES:
+   :CUSTOM_ID:
+   :END:
+
+** Binary Search
+   :PROPERTIES:
+   :CUSTOM_ID:
+   :END:
+
+* Sorting
+	:PROPERTIES:
+	:CUSTOM_ID:
+	:END:
+
+- often occuring problems:
+    - sorting files alphabetically
+    - sort phone book according to names
+    - sort stocks according to wins/losses
+    - ...
+
+- specification:
+    - problem:  sorting of a sequence
+    - given:    sequence of numbers $a_0, a_1, a_2, _, a_{n-1}$
+    - goal:     ascending ordering of input sequence, such that $a_i \leq a_{i+1}$
+
+- example:
+    - Input:    4, 8, 1, 5, 3, 7, 6, 2, 9
+    - Output:   1, 2, 3, 4, 5, 6, 7, 8, 9
+
+** Selection Sort
+    :PROPERTIES:
+	:CUSTOM_ID:
+	:END:
+
+*** Idea
+for a sequence $a_0, a_1, a_2, _, a_{n-1}$:
+- look for an element $a_k$ in the sequence with the smallest value.
+- append $a_k$ to the end of a new sequence.
+- remove $a_k$ from the input sequence and repeat all steps until the input sequence is empty.
+
+pseudocode:
+```
+to_sort := Input_sequence
+while to_sort is not empty:
+    find element $a_k$ with the smallest value in to_sort
+    append $a_k$ to result
+    remove $a_k$ from to_sort
+return result
+```
