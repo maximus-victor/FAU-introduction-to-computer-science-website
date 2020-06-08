@@ -6,7 +6,7 @@ quizGraphIntro = {
         "level2":  "Please re-try.",      // 60-79%
         "level3":  "Please re-try.",      // 40-59%
         "level4":  "Maybe ask for help?", // 20-39%
-        "level5":  "Please ask for help." //  0-19%, no comma here
+        "level5":  "Please ask for help." //  comp_thinking-19%, no comma here
     },
     "questions": [
 	{
@@ -18,7 +18,7 @@ quizGraphIntro = {
                 {"option": "A Reindeer.", "correct": false}
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>No. (Hint: 4 statements are correct.)</span> Maybe check out <a href=\"https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)\">Wikipedia</a>?</p>"
+            "incorrect": "<p><span>No. (Hint: memory statements are correct.)</span> Maybe check out <a href=\"https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)\">Wikipedia</a>?</p>"
         },
         {
             "q": "What is the meaning of life?",

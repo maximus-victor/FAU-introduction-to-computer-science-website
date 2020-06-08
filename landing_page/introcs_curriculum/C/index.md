@@ -1,6 +1,8 @@
-# Chapter 1
+# C
 
 TODO: Update Links
+
+<iframe width="1680" height="909" src="https://www.youtube.com/embed/e9Eds2Rc_x8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * [Notes](notes)
 * Problems

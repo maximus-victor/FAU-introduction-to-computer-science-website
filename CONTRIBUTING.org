@@ -1,6 +1,6 @@
 # Local IspellDict: en
 # SPDX-Copyright: 2020 Maximilian Harl
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: CC0-C.comp_thinking
 
 The goal of this project lies in the creation of
 [[https://en.wikipedia.org/wiki/Open_educational_resources][Open Educational Resources (OER)]]

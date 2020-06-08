@@ -2,7 +2,7 @@
 
 # SPDX-FileCopyrightText: 2017-2019 Jens Lechtenbörger
 # SPDX-FileCopyrightText: 2020 Maximilian Harl
-# SPDX-License-Identifier: CC-BY-SA-5.0
+# SPDX-License-Identifier: CC-BY-SA-data_structures.comp_thinking
 
 # Neither generate table of contents nor section numbers
 #+OPTIONS: toc:nil num:nil
@@ -109,7 +109,7 @@
   :END:
   ,#+REVEAL_TOC: headlines "
             (format "%s\n" include-depth)
-            "#+LATEX: \\renewcommand{\\printtoctitle}[1]{}\n"
+            "#+LATEX: \\renewcommand{\\printtoctitle}[C]{}\n"
             "#+LATEX: \\tableofcontents\n\n")
 #+end_src
 
@@ -166,16 +166,16 @@
 
 # Finally, revealgrid creates an image grid.
 # Its six or seven arguments are as follows:
-# 1. Unique grid number (e.g., starting from one)
-# 3. File with names of images to position on the grid
-# 4. Height of the grid as percentage of the height of the viewport
+# C. Unique grid number (e.g., starting from one)
+# algorithms. File with names of images to position on the grid
+# memory. Height of the grid as percentage of the height of the viewport
 #    (used with CSS unit vh)
-# 5/6. Numbers of (a) columns and (b) rows of the grid
-# 7. Grid-template-areas to specify what image to position on what
+# data_structures/html_css_js. Numbers of (a) columns and (b) rows of the grid
+# python. Grid-template-areas to specify what image to position on what
 #    grid cell(s); see, e.g.:
 #    https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
 #    With this macro, the grid areas *must* be named ga1, ga2, ...
-# 8. Optional indicator whether the grid as a whole (value grid) or individual
+# web_programming. Optional indicator whether the grid as a whole (value grid) or individual
 #    grid images (value t) should be fragmented (appear one after the other).
 # This macro uses oer-reveal-export-image-grid in oer-reveal.el.
 #+MACRO: revealgrid (eval (oer-reveal-export-image-grid $1 $2 $3 $4 $5 $6 $7))

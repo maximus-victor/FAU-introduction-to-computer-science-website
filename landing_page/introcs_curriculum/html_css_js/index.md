@@ -1,4 +1,4 @@
-# Chapter 5
+# HTML, CSS, JavaScript
 
 * [Notes](notes)
 * Problems

@@ -1,4 +1,6 @@
-# Chapter 6
+# Python
+
+<iframe width="1680" height="909" src="https://www.youtube.com/embed/fL308_-Kbt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * [Notes](notes)
 * Problems

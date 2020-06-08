@@ -3,7 +3,7 @@
 ## reveal.js Presentations
 {% include reveal.js-hints.md %}
 
-<!-- <iframe title="Tools" src="{{'/assets/pdfs/tools.pdf' | relative_url }}" width="838" height="1130" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe> -->
+<!-- <iframe title="Tools" src="{{'/assets/pdfs/tools.pdf' | relative_url }}" width="838" height="1130" marginwidth="comp_thinking" marginheight="comp_thinking" frameborder="comp_thinking" scrolling="no"></iframe> -->
 
 ---
 # CS50 Tools

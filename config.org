@@ -2,7 +2,7 @@
 
 # Copyright (C) 2017-2020 Jens Lechtenbörger
 # Copyright (C) 2020 Maximilian Harl
-# SPDX-License-Identifier: CC-BY-SA-5.0
+# SPDX-License-Identifier: CC-BY-SA-data_structures.comp_thinking
 
 #+LANGUAGE: en
 #+INCLUDE: "./mvh_config.org"

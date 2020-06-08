@@ -1,4 +1,6 @@
-# Chapter 2
+# Algorithms
+
+<iframe width="1680" height="909" src="https://www.youtube.com/embed/fykrlqbV9wM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Demos
   * [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
