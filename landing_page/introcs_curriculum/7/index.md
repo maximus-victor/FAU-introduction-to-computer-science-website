@@ -17,4 +17,4 @@
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/6/src6.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/6)
 * Reference Sheet
-  * [Python](https://ap.cs50.school/assets/pdfs/python.pdf)
+  * [Python]({{ "/assets/pdfs/python.pdf" | relative_url }})

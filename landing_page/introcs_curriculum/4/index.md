@@ -25,8 +25,8 @@
   * [Sandbox](https://sandbox.cs50.io/13f78b0a-70db-4dc3-90f5-87164e38d431)
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/3/src3.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/3/)
-* Reference Sheets
-  * [Bugs and Debugging](https://ap.cs50.school/assets/pdfs/bugs_and_debugging.pdf)
-  * [File I/O](https://ap.cs50.school/assets/pdfs/file_io.pdf)
-  * [Hexadecimal](https://ap.cs50.school/assets/pdfs/hexadecimal.pdf)
-  * [Images](https://ap.cs50.school/assets/pdfs/images.pdf)
+* Cheat Sheets
+  * [Memory]({{ "/assets/pdfs/memory.pdf" | relative_url }})
+  * [File I/O]({{ "/assets/pdfs/file_io.pdf" | relative_url }})
+  * [Hexadecimal]({{ "/assets/pdfs/hexadecimal.pdf" | relative_url }})
+  * [Images]({{ "/assets/pdfs/images.pdf" | relative_url }})
