@@ -1,5 +1,7 @@
 # Chapter 1
 
+TODO: Update Links
+
 * [Notes](notes)
 * Problems
   * [Hello](https://docs.cs50.net/2019/ap/problems/hello/hello.html)
@@ -22,12 +24,13 @@
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/1/src1.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/1)
 * Reference Sheets
-  * [Boolean Expressions](https://ap.cs50.school/assets/pdfs/boolean_expressions.pdf)
-  * [Data Types](https://ap.cs50.school/assets/pdfs/data_types.pdf)
-  * [Functions](https://ap.cs50.school/assets/pdfs/functions.pdf)
-  * [Libraries](https://ap.cs50.school/assets/pdfs/libraries.pdf)
-  * [Loops](https://ap.cs50.school/assets/pdfs/loops.pdf)
-  * [Operators](https://ap.cs50.school/assets/pdfs/operators.pdf)
-  * [Principles of Good Design](https://ap.cs50.school/assets/pdfs/principles_of_good_design.pdf)
-  * [Syntax](https://ap.cs50.school/assets/pdfs/syntax.pdf)
-  * [Variables](https://ap.cs50.school/assets/pdfs/variables.pdf)
+  * [Syntax]({{ "/assets/pdfs/syntax.pdf" | relative_url }})
+  * [Variables]({{ "/assets/pdfs/variables.pdf" | relative_url }})
+  * [Data Types]({{ "/assets/pdfs/data_types.pdf" | relative_url }})
+  * [Functions]({{ "/assets/pdfs/functions.pdf" | relative_url }})
+  * [Operators]({{ "/assets/pdfs/operators.pdf" | relative_url }})
+  * [Boolean Expressions]({{ "/assets/pdfs/boolean_expressions.pdf" | relative_url }})
+  * [Loops]({{ "/assets/pdfs/loops.pdf" | relative_url }})
+  * [Libraries]({{ "/assets/pdfs/libraries.pdf" | relative_url }})
+  * [Principles of good design]({{ "/assets/pdfs/principles_of_good_design.pdf" | relative_url }})
+

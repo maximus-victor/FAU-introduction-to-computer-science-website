@@ -1,4 +1,8 @@
-# Chapter 0
+# Computational Thinking
+
+TODO: Update Links
+
+<iframe src="https://video.cs50.net/2018/fall/lectures/0"></iframe>
 
 * [Notes](notes)
 * Problem
@@ -7,5 +11,4 @@
 * Source Code from Lecture
   * [Index](https://cdn.cs50.net/2018/fall/lectures/0/src0/)
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/0/src0.zip)
-* [Video](https://video.cs50.net/2018/fall/lectures/0)
 
