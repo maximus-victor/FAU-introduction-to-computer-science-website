@@ -1,5 +1,9 @@
 ***
 
+* [Curriculum]({{ "/landing_page/introcs_curriculum" | relative_url }})
+
+***
+
 * [Week 0]({{ "/landing_page/introcs_curriculum/0" | relative_url }}) Comp. Thinking
 * [Week 1]({{ "/landing_page/introcs_curriculum/0" | relative_url }}) C
 * [Week 2]() Arrays
@@ -12,11 +16,8 @@
 
 ***
 
+* [Tools]({{ "/tools" | relative_url }})
 * [CS50 IDE](https://ide.cs50.io/)
-* [CS50 Programmer's Manual](https://man.cs50.io/)
+* [CS50 Man Pages](https://man.cs50.io/)
 
 ***
-
-* [Curriculum]({{ "/landing_page/introcs_curriculum" | relative_url }})
-* [Tools]({{ "/tools" | relative_url }})
-* [Syllabus]({{"/syllabus" | relative_url }})

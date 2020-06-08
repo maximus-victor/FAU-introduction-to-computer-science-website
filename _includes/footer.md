@@ -1,1 +1,1 @@
-This is a test footer. - gz. Maximilian Harl
+Chair of Digital Industrial Service Systems.

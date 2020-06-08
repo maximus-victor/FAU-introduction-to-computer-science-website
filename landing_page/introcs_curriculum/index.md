@@ -1,16 +1,22 @@
 # IntroCS Curriculum
 
-### [Chapter 0](0)
+### [Week 0](0)
 
-Binary. ASCII. Algorithms. Pseudocode.  
+Binary. ASCII. Algorithms. Pseudocode.
 
-### [Chapter 1](1)
+Cheat Sheets: 
+* [ASCII]({{ "/assets/pdfs/ascii.pdf" | relative_url }})
+
+### [Week 1](1)
 
 Syntax. Variables. Data Types. Operators. Boolean Expressions and Conditionals. Loops.
 
 ### [Chapter 2](3)
 
 Compiling. Debugging. Arrays and Strings. Command-Line Interaction. Exit Codes. Searching. Computational Complexity. Computational Models.
+
+Cheat Sheets:
+* [Arrays and Strings]({{ "/assets/pdfs/arrays_and_strings.pdf" | relative_url }})
 
 ### [Chapter 3](4)
 
