@@ -1,0 +1,10 @@
+# Local IspellDict: en
+#+SPDX-FileCopyrightText: 2020 Maximilian Harl
+#+SPDX-License-Identifier: CC-BY-SA-4.0
+
+#+STARTUP: showeverything
+#+INCLUDE: "./config-course.org"
+#+OPTIONS: toc:1
+
+#+TITLE: IntroCS: Graphs and Trees
+#+KEYWORDS: computer science, introcs, graphs, trees, oer

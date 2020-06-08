@@ -57,8 +57,11 @@ The PDF versions provided below are generated via LaTeX from Org
 source files.
 
 ### Self-study presentations
+<!-- 
  - [**Overview of Computer Science**]({{ "/IntroCS_overview.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_overview.pdf" | relative_url }}))
- - [**C**]({{ "/IntroCS_C.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_C.pdf" | relative_url }}))
+ - [**C**]({{ "/IntroCS_C.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_C.pdf" | relative_url }})) 
+ -->
+ - [**Algorithms**]({{ "/IntroCS_algorithms.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_algorithms.pdf" | relative_url }}))
  - [**Graphs and Trees**]({{ "/IntroCS_graphs_trees.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_graphs_trees.pdf" | relative_url }}))
 
 For offline work (also on mobile devices), you can

@@ -2,7 +2,7 @@
 
 TODO: Update Links
 
-<iframe src="https://youtu.be/jjqgP9dpD1k"></iframe>
+<iframe src="https://www.youtube.com/embed/jjqgP9dpD1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * [Notes](notes)
 * Problem
