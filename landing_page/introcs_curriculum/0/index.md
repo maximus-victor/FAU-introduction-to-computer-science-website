@@ -2,7 +2,7 @@
 
 TODO: Update Links
 
-<iframe src="https://video.cs50.net/2018/fall/lectures/0"></iframe>
+<iframe src="https://youtu.be/jjqgP9dpD1k"></iframe>
 
 * [Notes](notes)
 * Problem
