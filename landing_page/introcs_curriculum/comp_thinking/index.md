@@ -10,5 +10,5 @@ TODO: Update Links
 * [Slides](https://cdn.cs50.net/2018/fall/lectures/0/lecture0.pdf)
 * Source Code from Lecture: [Index](https://cdn.cs50.net/2018/fall/lectures/0/src0/), [ZIP](https://cdn.cs50.net/2018/fall/lectures/0/src0.zip)
 
-{% include landing_page/introcs_curriculum/comp_thinking/notes/index.md %}
+{% include ../landing_page/introcs_curriculum/comp_thinking/notes/index.md %}
 
