@@ -65,9 +65,9 @@ Tries.
 ### [Week 6](6)
 
 [Internet Basics]({{ "/assets/pdfs/internet_basics.pdf" | relative_url }}), 
-* [Routers]({{ "/assets/pdfs/routers.pdf" | relative_url }}), 
-* [HTTP]({{ "/assets/pdfs/http.pdf" | relative_url }}), 
-* [HTML]({{ "/assets/pdfs/html.pdf" | relative_url }}), 
+[Routers]({{ "/assets/pdfs/routers.pdf" | relative_url }}), 
+[HTTP]({{ "/assets/pdfs/http.pdf" | relative_url }}), 
+[HTML]({{ "/assets/pdfs/html.pdf" | relative_url }}), 
 Forms, 
 [CSS]({{ "/assets/pdfs/css.pdf" | relative_url }}), 
 [JavaScript]({{ "/assets/pdfs/javascript.pdf" | relative_url }}), 

@@ -17,6 +17,4 @@
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/8/src8.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/8)
 * Reference Sheets
-  * [Ajax](https://ap.cs50.school/assets/pdfs/ajax.pdf)
-  * [MVC](https://ap.cs50.school/assets/pdfs/mvc.pdf)
-  * [Python for Web Programming](https://ap.cs50.school/assets/pdfs/python_for_web_programming.pdf)
+  * [SQL]({{ "/assets/pdfs/sql.pdf" | relative_url }})
