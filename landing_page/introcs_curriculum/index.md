@@ -28,9 +28,9 @@ Compiling. Debugging. Arrays and Strings. Command-Line Interaction. Exit Codes.
 Cheat Sheets:
 * [Arrays and Strings]({{ "/assets/pdfs/arrays_and_strings.pdf" | relative_url }})
 * [Typecasting]({{ "/assets/pdfs/typecasting.pdf" | relative_url }})
-* [Bugs and Debugging]({{ "/assets/pdfs/bugs_and_debugging.pdf" | relative_url }})
 * [Command-Line Interaction]({{ "/assets/pdfs/command-line_interaction.pdf" | relative_url }})
 * [Compiling]({{ "/assets/pdfs/compiling.pdf" | relative_url }})
+* [Bugs and Debugging]({{ "/assets/pdfs/bugs_and_debugging.pdf" | relative_url }})
 * [Exit Codes]({{ "/assets/pdfs/exit_codes.pdf" | relative_url }})
 
 ### [Week 3](3)
@@ -55,6 +55,7 @@ Cheat Sheets:
 * [File I/O]({{ "/assets/pdfs/file_io.pdf" | relative_url }})
 * [Memory]({{ "/assets/pdfs/memory.pdf" | relative_url }})
 * [Hexadecimal]({{ "/assets/pdfs/hexadecimal.pdf" | relative_url }})
+* [Images]({{ "/assets/pdfs/images.pdf" | relative_url }})
 
 ### [Week 5](5)
 
@@ -90,12 +91,14 @@ Flask. MVC. Autocomplete. Events. Ajax. JSON.
 Cheat Sheets: 
 * [Python for web programming]({{ "/assets/pdfs/python_for_web_programming.pdf" | relative_url }})
 * [Ajax]({{ "/assets/pdfs/ajax.pdf" | relative_url }})
+* [MVC]({{ "/assets/pdfs/mvc.pdf" | relative_url }})
 
 ### [Week 9](9)
 
 Cookies. Sessions. Databases. SQL. Race Conditions.
 * [SQL]({{ "/assets/pdfs/sql.pdf" | relative_url }})
 
+<!--
 ### [Understanding Technology](understanding_technology)
 
 Hardware. The Internet. Multimedia. Security.
@@ -107,3 +110,4 @@ Collecting Data. Analyzing Data.
 ### [Impact of Computing](impact_of_computing)
 
 The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethics and Legalities of Computing.
+-->
