@@ -1,4 +1,4 @@
-## Lecture 0
+## Notes: Computational Thinking
 {:.no_toc}
 
 * TOC
