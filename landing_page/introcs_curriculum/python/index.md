@@ -26,7 +26,6 @@ TODO: update links
 * Reference Sheet:
   * [Python]({{ "/assets/pdfs/python.pdf" | relative_url }})
 
-
 ## Last Time
 
 * We learned some basics about the internet, and technologies like:
