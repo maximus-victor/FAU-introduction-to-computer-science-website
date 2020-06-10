@@ -14,7 +14,6 @@ TODO: update links
 * Problems:
   * [Defender of the Web](https://docs.cs50.net/2019/ap/problems/defender/defender.html)
   * [Be the Teacher](https://docs.cs50.net/2019/ap/problems/teacher/teacher.html)
-  * [Homepage](https://docs.cs50.net/2019/ap/problems/homepage/homepage.html)
 * Shorts:
   * [CSS](https://www.youtube.com/watch?v=Ub3FKU21ubk)
   * [HTML](https://www.youtube.com/watch?v=YK78KhMf7bs)
@@ -25,7 +24,6 @@ TODO: update links
   * [TCP](https://www.youtube.com/watch?v=GP7uvI_6uas)
 * [Slides](https://cdn.cs50.net/2018/fall/lectures/5/lecture5.pdf)
 * Source Code: [Index](https://cdn.cs50.net/2018/fall/lectures/5/src5/), [PDF](https://cdn.cs50.net/2018/fall/lectures/5/src5.pdf), [Sandbox](https://sandbox.cs50.io/b0df4352-0dac-4722-bfc7-fe58e4c91bf5), in which you can run `http-server` and then click circular reload icon in embedded browser, [ZIP](https://cdn.cs50.net/2018/fall/lectures/5/src5.zip)
-* [Video](https://video.cs50.net/2018/fall/lectures/5)
 * Reference Sheets:
   * [Internet Basics]({{ "/assets/pdfs/internet_basics.pdf" | relative_url }})
   * [Routers]({{ "/assets/pdfs/routers.pdf" | relative_url }})
@@ -36,6 +34,10 @@ TODO: update links
   * [IP Addresses]({{ "/assets/pdfs/ip_addresses.pdf" | relative_url }})
   * [TCP and IP]({{ "/assets/pdfs/tcp_and_ip.pdf" | relative_url }})
   * [DNS and DHCP]({{ "/assets/pdfs/dns_and_dhcp.pdf" | relative_url }})
+
+## Introduction
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/BB7xPefB8og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Networking
 
@@ -52,6 +54,8 @@ TODO: update links
 * When we type that URL in a browser, our browser first uses DNS to look up the IP address for that domain, and then sends a request (in a virtual envelope) to the right IP address for the website. And when the server at that address responds, it will send us the content of the website in a virtual envelope with our address as the destination.
 
 ## HTTP
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/iSFEjQRulf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * **HTTP**, Hypertext Transfer Protocol, is another set of rules and conventions for communicating. For example, humans might have the convention of shaking hands when meeting for the first (or subsequent) times. When our browser communicates to web servers through HTTP, too, both computers follow a protocol for making requests and responses.
 * A request for a webpage will look like this:
@@ -90,6 +94,8 @@ TODO: update links
   * `...`
 
 ## HTML
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/78wdlyzrKOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Now that our computers can communicate, we can start thinking about creating the content that websites are comprised of.
 * **HTML**, Hypertext Markup Language, is a standard with which webpages are written. It's interpreted by browsers from top to bottom, and each line might have some text, image, or styling instructions.
@@ -179,6 +185,8 @@ TODO: update links
   * The first `input` tag is a text box, which we will name `q` so that it can be sent to Google correctly, and the second `input` tag is a submit button that we'll label "Search".
 
 ## CSS
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/g7nZFp2zSJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * While HTML is used for layout and structure, **CSS**, Cascading Style Sheets, is another language we can use to style, or change the aesthetics, of our webpages.
 * Let's take a look at `css0.html`:
@@ -343,6 +351,8 @@ TODO: update links
 * Phew, we covered lots of concepts here! But, now that we're familiar with some of these patterns, we can learn to use additional features by reading examples and documentation online.
 
 ## JavaScript
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/WzfPjOYmjxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * **JavaScript**, a programming language, can be used on our webpages to make them more dynamic. The user's browser runs the JavaScript code we write, to make changes to the page.
 * JavaScript is similar to C, and is interpreted by a browser from top to bottom.
@@ -544,3 +554,7 @@ TODO: update links
   </html>
   ```
   * `navigator` refers to the user's browser, and the `geolocation.getCurrentPosition` function will return a `position` object. When we get that `position` object, we want to call a function that will then write the `latitude` and `longitude` values to the document.
+  
+## Problem: Homepage
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/sEVlPyywlfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

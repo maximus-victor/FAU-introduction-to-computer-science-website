@@ -21,7 +21,6 @@ TODO: update links
   * [Python](https://www.youtube.com/watch?v=mgBpcQRDtl0)
 * [Slides](https://cdn.cs50.net/2018/fall/lectures/7/lecture7.pdf)
 * Source Code: [Index](https://cdn.cs50.net/2018/fall/lectures/7/src7/), [PDF](https://cdn.cs50.net/2018/fall/lectures/7/src7.pdf), [Sandbox](https://sandbox.cs50.io/e5e09c03-1783-49c2-84a5-6a17332d1f47), [ZIP](https://cdn.cs50.net/2018/fall/lectures/7/src7.zip)
-* [Video](https://video.cs50.net/2018/fall/lectures/7)
 * Reference Sheets
   * [Python for web programming]({{ "/assets/pdfs/python_for_web_programming.pdf" | relative_url }})
   * [Ajax]({{ "/assets/pdfs/ajax.pdf" | relative_url }})
@@ -45,6 +44,8 @@ TODO: update links
     * The `...` is the actual HTML of the page.
 
 ## Flask
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/GhB6Q7KC-SM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Today, we'll use Flask, a microframework, or a set of code that allows us to build programs without writing shared or repeated code over and over. (Bootstrap, for example, is a framework for CSS.)
 * Flask is written in Python and is a set of libraries of code that we can use to write a web server in Python.
@@ -397,7 +398,19 @@ TODO: update links
   * In this example, we have a function that will be called when the `form` on the page is submitted, and checks that there's a value for both the `input` and the `select`. If there is no value for one of them, we'll create an alert and `return fallse` to stop the form from being submitted. Otherwise, our function will `return true` if both are present, allowing the form to be submitted by the browser.
   * We could also factor out the JavaScript code into a `.js` file and include it, but since we don't have very many lines of code yet, we can make a design decision to include our JavaScript code directly in our template. Frameworks like React will organize view code, like the HTML and JavaScript, in particular ways, so that we can maintain consistent patterns in more complicated web applications.
 
-## Words
+## Databases
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/zdH1PnWxSpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Finance
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/kAvCTffbH04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
+
+<iframe width="1214" height="683" src="https://www.youtube.com/embed/I-e5Jzq0yA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Example: Words
 
 * Let's create a website where someone can search for words that start with some string, much like how we might want to have autocomplete. We'll need a file called `large` that's a list of dictionary words, and in `words0/application.py` we'll have:
   ```python

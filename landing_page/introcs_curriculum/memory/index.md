@@ -1,4 +1,4 @@
-## Memory
+# Memory
 {:.no_toc}
 
 TODO: update links

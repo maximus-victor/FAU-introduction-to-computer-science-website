@@ -14,10 +14,6 @@
 * TOC
 {:toc}
 
-***
-
-* [Problem Set]({{ "/assets/psets/pset_oop.pdf" | relative_url }})
-
 ## [Problem Set]({{ "/assets/psets/pset_oop.pdf" | relative_url }})
 
 In this week’s problem set, we’re going to discover some benefits of object-oriented programming. You can get the problem set instruction and distribution code from the following link (MIT Problem Set 5). The tasks and information on what you need to do in particular are in the zip that you download above.
