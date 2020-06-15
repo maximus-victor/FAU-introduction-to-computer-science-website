@@ -5,7 +5,7 @@
 
 ***
 
-* [Comp. Thinking]({{ "/landing_page/introcs_curriculum/comp_thinking" | relative_url }}) (cs50's week 0) 😺
+* [Comp. Thinking 😺]({{ "/landing_page/introcs_curriculum/comp_thinking" | relative_url }}) (cs50's week 0)
 * [C]({{ "/landing_page/introcs_curriculum/C" | relative_url }}) (cs50's week 1)
 * [Arrays]({{ "/landing_page/introcs_curriculum/arrays" | relative_url }}) (cs50's week 2)
 * [Algorithms]({{ "/landing_page/introcs_curriculum/algorithms" | relative_url }}) (cs50's week 3)
