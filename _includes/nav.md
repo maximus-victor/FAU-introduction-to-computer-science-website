@@ -2,8 +2,7 @@
 
 * [Curriculum]({{ "/landing_page/introcs_curriculum" | relative_url }})
 * [Syllabus WS20/21]({{ "/landing_page/syllabus_ws20" | relative_url }})
-* [Tools]({{ "/landing_page/tools" | relative_url }})
-* [FAQ]({{ "/landing_page/faq" | relative_url }})
+* [Course Coordinators]({{ "/landing_page/coordinators" | relative_url }})
 
 ***
 
@@ -21,14 +20,15 @@
 * [week 9]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) Web Programming
 
 ***
-<sup>
-* [StudOn](https://www.studon.fau.de/studon/goto.php?target=crs_2677128)
-* [Teams](https://teams.microsoft.com/l/team/19%3a927d10574d0a47e1b523c54d0aec17c3%40thread.tacv2/conversations?groupId=9dcb9c5c-dd8f-4a92-bd93-ed7ae3519007&tenantId=b2efcef3-8496-40b8-9de8-f135982f3461)
-* [CS50 IDE](https://ide.cs50.io/)
-* [CS50 Man Pages](https://man.cs50.io/)
-</sup>
+
+* [<sup>StudOn</sup>](https://www.studon.fau.de/studon/goto.php?target=crs_2677128)
+* [<sup>Teams</sup>](https://teams.microsoft.com/l/team/19%3a927d10574d0a47e1b523c54d0aec17c3%40thread.tacv2/conversations?groupId=9dcb9c5c-dd8f-4a92-bd93-ed7ae3519007&tenantId=b2efcef3-8496-40b8-9de8-f135982f3461)
+* [<sup>Tools</sup>]({{ "/landing_page/tools" | relative_url }})
+* [<sup>FAQ</sup>]({{ "/landing_page/faq" | relative_url }})
+
 ***
 
-
+* [<sup>CS50 IDE</sup>](https://ide.cs50.io/)
+* [<sup>CS50 Man Pages</sup>](https://man.cs50.io/)
 
 ***
