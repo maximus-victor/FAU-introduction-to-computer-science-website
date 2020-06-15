@@ -119,17 +119,3 @@ Autocomplete,
 Events, 
 [Ajax]({{ "/assets/pdfs/ajax.pdf" | relative_url }}), 
 JSON.
-
-<!--
-### [Understanding Technology](understanding_technology)
-
-Hardware. The Internet. Multimedia. Security.
-
-### [Data Science](data_science)
-
-Collecting Data. Analyzing Data.
-
-### [Impact of Computing](impact_of_computing)
-
-The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethics and Legalities of Computing.
--->

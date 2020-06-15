@@ -3,8 +3,7 @@
 
 <iframe width="1214" height="622" src="https://www.youtube.com/embed/suzS0NWu8uQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Overview
-{:.no_toc}
+***
 
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/8/lecture8.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/8/)
