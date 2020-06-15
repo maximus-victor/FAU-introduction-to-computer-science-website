@@ -1,49 +1,52 @@
 # Algorithms
 {:.no_toc}
 
-TODO: Update Links
-
 <iframe width="1680" height="909" src="https://www.youtube.com/embed/fykrlqbV9wM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-* TOC
-{:toc}
-
-***
-
+* [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/3/lecture3.mp3.download)
+* [Notes](https://cs50.harvard.edu/x/2020/notes/3/)
 * Demos:
   * [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
   * [What different sorting algorithms sound like](https://www.youtube.com/watch?v=t8g-iYGHpEA)
-* Problems:
+  * [Comparison Sorting Algorithms](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+  * [Visualization and Comparison of Sorting Algorithms](https://www.youtube.com/watch?v=ZZuD6iUe3Pc)
+* Problem: [PSet 3](https://cs50.harvard.edu/x/2020/psets/3/)
+<!--
   * [Old Friends](https://docs.cs50.net/2019/ap/problems/friends/friends.html)
   * [Calc](https://docs.cs50.net/2019/ap/problems/calc/calc.html)
   * [Caesar](https://docs.cs50.net/2019/ap/problems/caesar/caesar.html)
   * [Crack](https://docs.cs50.net/2019/ap/problems/crack/crack.html) or [Vigenère](https://docs.cs50.net/2019/ap/problems/vigenere/vigenere.html)
+-->
 * Shorts:
-  * [Algorithms summary](https://www.youtube.com/watch?v=ktWL3nN38ZA)
-  * [Arrays](https://www.youtube.com/watch?v=mISkNAfWl8k)
+  * [Linear search](https://www.youtube.com/watch?v=TwsgCHYmbbA)
   * [Binary search](https://www.youtube.com/watch?v=T98PIp4omUA)
   * [Bubble sort](https://www.youtube.com/watch?v=RT-hUXUWQ2I)
-  * [Command line](https://www.youtube.com/watch?v=thL7ILwRNMM)
-  * [Debugging](https://www.youtube.com/watch?v=w4TAY2HPLEg)
-  * [Functions](https://www.youtube.com/watch?v=b7-0sb-DV84)
-  * [Insertion sort](https://www.youtube.com/watch?v=O0VbBkUvriI)
-  * [Linear search](https://www.youtube.com/watch?v=TwsgCHYmbbA)
-  * [Merge sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4)
   * [Selection sort](https://www.youtube.com/watch?v=3hH8kTHFw2A)
-* [Slides](https://cdn.cs50.net/2018/fall/lectures/2/lecture2.pdf)
-* Source Code: [Index](https://cdn.cs50.net/2018/fall/lectures/2/src2/), [PDF](https://cdn.cs50.net/2018/fall/lectures/2/src2.pdf), [Sandbox](https://sandbox.cs50.io/edf25846-8cf8-4391-bda0-8649f25ac1e2), [ZIP](https://cdn.cs50.net/2018/fall/lectures/2/src2.zip)
+  * [Insertion sort](https://www.youtube.com/watch?v=O0VbBkUvriI)
+  * [Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM)
+  * [Merge sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4)
+  * [Algorithms summary](https://www.youtube.com/watch?v=ktWL3nN38ZA)
+* [Slides](https://docs.google.com/presentation/d/17eT9MaZBUByTTlpkliT8kTg7AW1820xMIQg0HDd5NCk/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/3/lecture3.pdf))
+* Source Code: [Index](https://cdn.cs50.net/2019/fall/lectures/3/src3/), [PDF](https://cdn.cs50.net/2019/fall/lectures/3/src3.pdf), [ZIP](https://cdn.cs50.net/2019/fall/lectures/3/src3.zip)
 * Cheat Sheets:
   * [Linear Search]({{ "/assets/pdfs/linear_search.pdf" | relative_url }})
   * [Binary Search]({{ "/assets/pdfs/binary_search.pdf" | relative_url }}))
   * [Bubble Sort]({{ "/assets/pdfs/bubble_sort.pdf" | relative_url }})
-  * [Insertion Sort]({{ "/assets/pdfs/insertion_sort.pdf" | relative_url }})
   * [Selection Sort]({{ "/assets/pdfs/selection_sort.pdf" | relative_url }})
+  * [Insertion Sort]({{ "/assets/pdfs/insertion_sort.pdf" | relative_url }})
+  * [Recursion]({{ "/assets/pdfs/recursion.pdf" | relative_url }})
   * [Merge Sort]({{ "/assets/pdfs/merge_sort.pdf" | relative_url }}))
   * [Computational Complexity]({{ "/assets/pdfs/computational_complexity.pdf" | relative_url }})
-  * [Recursion]({{ "/assets/pdfs/recursion.pdf" | relative_url }})
+
+***
+
+* TOC
+{:toc}
+
+<!--
 
 ## Compiling
 
@@ -747,3 +750,5 @@ TODO: Update Links
 [^2]: In the exam reference sheet for the AP CSP exam, we have access to even more functionality with lists, like inserting an item into a list as with `INSERT(list name, index, value)`, appending an item to a list as with `APPEND(list name, value)`, remove items as with `REMOVE(list name, i)`, and you can find the length with `LENGTH(list name)`.
 
 [^3]: The term substring is also associated with strings. These are parts of an existing string. For example, "vision" would be a substring of "Television".
+
+-->

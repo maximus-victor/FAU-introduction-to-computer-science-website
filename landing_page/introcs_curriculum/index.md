@@ -1,13 +1,13 @@
 # IntroCS Curriculum
 
-### [Week 0](comp_thinking)
+### [Computational Thinking](comp_thinking)
 
 [Binary]({{ "/assets/pdfs/binary.pdf" | relative_url }}), 
 [ASCII]({{ "/assets/pdfs/ascii.pdf" | relative_url }}), 
 Algorithms, 
 [Pseudocode]({{ "/assets/pdfs/pseudocode.pdf" | relative_url }}).
 
-### [Week 1](C)
+### [C](C)
 
 [Syntax]({{ "/assets/pdfs/syntax.pdf" | relative_url }}), 
 [Variables]({{ "/assets/pdfs/variables.pdf" | relative_url }}), 
@@ -19,7 +19,7 @@ Algorithms,
 [Libraries]({{ "/assets/pdfs/libraries.pdf" | relative_url }}), 
 [Principles of good design]({{ "/assets/pdfs/principles_of_good_design.pdf" | relative_url }}).
 
-### [Week 2](arrays)
+### [Arrays](arrays)
 
 [Compiling]({{ "/assets/pdfs/compiling.pdf" | relative_url }}), 
 [Bugs and Debugging]({{ "/assets/pdfs/bugs_and_debugging.pdf" | relative_url }}), 
@@ -28,7 +28,7 @@ Algorithms,
 [Exit Codes]({{ "/assets/pdfs/exit_codes.pdf" | relative_url }}), 
 [Typecasting]({{ "/assets/pdfs/typecasting.pdf" | relative_url }}).
 
-### [Week 3](algorithms)
+### [Algorithms](algorithms)
 
 Searching (
 [Linear Search]({{ "/assets/pdfs/linear_search.pdf" | relative_url }}), 
@@ -41,7 +41,7 @@ Sorting (
 [Computational Complexity]({{ "/assets/pdfs/computational_complexity.pdf" | relative_url }}), 
 [Recursion]({{ "/assets/pdfs/recursion.pdf" | relative_url }}).
 
-### [Week 4](memory)
+### [Memory](memory)
 
 Functions, 
 Tools for Debugging, 
@@ -53,7 +53,7 @@ Structs,
 [Hexadecimal]({{ "/assets/pdfs/hexadecimal.pdf" | relative_url }}), 
 [Images]({{ "/assets/pdfs/images.pdf" | relative_url }}).
 
-### [Week 5](data_structures)
+### [Data Structures](data_structures)
 
 Valgrind, 
 [Structures and Encapsulation]({{ "/assets/pdfs/structures_and_encapsulation.pdf" | relative_url }}), 
@@ -62,7 +62,30 @@ Hash Tables,
 Trees, 
 Tries.
 
-### [Week 6](html_css_js)
+### [Python](python)
+
+[Python]({{ "/assets/pdfs/python.pdf" | relative_url }}), 
+Conditionals, 
+Booleans, 
+Loops, 
+Data Types, 
+Functions.
+
+### [Graphs & Trees](graphs_trees)
+
+### [Object Oriented Programming](OOP)
+
+### [SQL](sql)
+
+Cookies, 
+Sessions, 
+Databases, 
+[SQL]({{ "/assets/pdfs/sql.pdf" | relative_url }}), 
+Race Conditions.
+
+### [Information](information)
+
+### [HTML, CSS & JS](html_css_js)
 
 [Internet Basics]({{ "/assets/pdfs/internet_basics.pdf" | relative_url }}), 
 [Routers]({{ "/assets/pdfs/routers.pdf" | relative_url }}), 
@@ -75,17 +98,7 @@ Forms,
 [TCP and IP]({{ "/assets/pdfs/tcp_and_ip.pdf" | relative_url }}), 
 [DNS and DHCP]({{ "/assets/pdfs/dns_and_dhcp.pdf" | relative_url }}).
 
-### [Week 7](python)
-
-[Python]({{ "/assets/pdfs/python.pdf" | relative_url }}), 
-Conditionals, 
-Booleans, 
-Loops, 
-Data Types, 
-Functions.
-
-
-### [Week 8](web_programming)
+### [Web Programming](web_programming)
 
 [Python for web programming]({{ "/assets/pdfs/python_for_web_programming.pdf" | relative_url }}), 
 Flask, 
@@ -94,14 +107,6 @@ Autocomplete,
 Events, 
 [Ajax]({{ "/assets/pdfs/ajax.pdf" | relative_url }}), 
 JSON.
-
-### [Week 9](sql)
-
-Cookies, 
-Sessions, 
-Databases, 
-[SQL]({{ "/assets/pdfs/sql.pdf" | relative_url }}), 
-Race Conditions.
 
 <!--
 ### [Understanding Technology](understanding_technology)

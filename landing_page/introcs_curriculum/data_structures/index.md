@@ -1,31 +1,34 @@
 # Data Structures
 {:.no_toc}
 
-TODO: update links
-
 <iframe width="1680" height="909" src="https://www.youtube.com/embed/4IrUAqYKjIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-* TOC
-{:toc}
-
-***
-
-* Problem:
+* [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/5/lecture5.mp3.download)
+* [Notes](https://cs50.harvard.edu/x/2020/notes/5/)
+* Problem: [PSet 5](https://cs50.harvard.edu/x/2020/psets/5/)
+<!--
   * [Speller (hash table)](https://docs.cs50.net/2019/ap/problems/speller/hashtable/speller.html) of [Speller (trie)](https://docs.cs50.net/2019/ap/problems/speller/trie/speller.html)
+-->
 * Shorts:
-  * [Custom data types](https://www.youtube.com/watch?v=crxfzK3Oc9M)
   * [Data structures](https://www.youtube.com/watch?v=Ryz5KK5G8Sc)
+  * [Singly-Linked lists](https://www.youtube.com/watch?v=zQI3FyWm144)
   * [Hash tables](https://www.youtube.com/watch?v=a97eCq6EN88)
-  * [Linked lists](https://www.youtube.com/watch?v=xdkSNe43iNM)
   * [Tries](https://www.youtube.com/watch?v=MTxh0kx1Vvs)
-* [Slides](https://cdn.cs50.net/2018/fall/lectures/4/lecture4.pdf)
-* Source Code: [Index](https://cdn.cs50.net/2018/fall/lectures/4/src4/), [PDF](https://cdn.cs50.net/2018/fall/lectures/4/src4.pdf), [Sandbox](https://sandbox.cs50.io/86b99f4c-deb6-4a5b-8d1f-75d5dbf9a35d), [ZIP](https://cdn.cs50.net/2018/fall/lectures/4/src4.zip)
+  * [Custom data types](https://www.youtube.com/watch?v=crxfzK3Oc9M)
+* [Slides](https://docs.google.com/presentation/d/1KMzq3bLe7g_O4JVYZ0lxuxHjShnIk54beO84-chYTig/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/5/lecture5.pdf))
+* Source Code: [Index](https://cdn.cs50.net/2019/fall/lectures/5/src5/), [PDF](https://cdn.cs50.net/2019/fall/lectures/5/src5.pdf), [ZIP](https://cdn.cs50.net/2019/fall/lectures/5/src5.zip)
 * Cheat Sheets:
   * [Structures and Encapsulation]({{ "/assets/pdfs/structures_and_encapsulation.pdf" | relative_url }}), 
 
+***
+
+* TOC
+{:toc}
+
+<!--
 
 ## Tools for debugging
 
@@ -370,3 +373,5 @@ TODO: update links
   ![array with blanks, and letters M, P, T; each letter points to another array, with blanks, and some letters that each point to other arrays and letters in them](trie.png)
   * Imagine we want to store a dictionary of words efficiently, and be able to access each one in constant time. A trie is like a tree, but each node is an array. Each array will have each letter, A-Z, stored. For each word, the first letter will point to an array, where the next valid letter will point to another array, and so on, until we reach something indicating the end of a valid word. If our word isn't in the trie, then one of the arrays won't have a pointer or terminating character for our word.
 * In our upcoming problem set, we'll use what we've learned about pointers and data structures to implement a spell-checking program, and gain an understanding of how something that might work at a low level.
+
+-->

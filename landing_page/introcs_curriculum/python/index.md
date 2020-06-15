@@ -1,19 +1,15 @@
 # Python
 {:.no_toc}
 
-TODO: update links
-
 <iframe width="1680" height="909" src="https://www.youtube.com/embed/fL308_-Kbt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-* TOC
-{:toc}
-
-***
-
-* Problems:
+* [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/6/lecture6.mp3.download)
+* [Notes](https://cs50.harvard.edu/x/2020/notes/6/)
+* Problem: [PSet 6](https://cs50.harvard.edu/x/2020/psets/6/)
+<!--
   * [Analyze This](https://docs.cs50.net/2019/ap/problems/analyze/analyze.html)
   * Sentimental:
     * [Hello](https://docs.cs50.net/2019/ap/problems/sentimental/hello/hello.html)
@@ -21,10 +17,18 @@ TODO: update links
     * [Cash](https://docs.cs50.net/2019/ap/problems/sentimental/cash/cash.html) or [Credit](https://docs.cs50.net/2019/ap/problems/sentimental/credit/credit.html)
     * [Caesar](https://docs.cs50.net/2019/ap/problems/sentimental/caesar/caesar.html), [Vigenère](https://docs.cs50.net/2019/ap/problems/sentimental/vigenere/vigenere.html), or [Crack](https://docs.cs50.net/2019/ap/problems/sentimental/crack/crack.html)
   * [Bleep](https://docs.cs50.net/2019/ap/problems/bleep/bleep.html)
-* [Slides](https://cdn.cs50.net/2018/fall/lectures/6/lecture6.pdf)
-* Source Code: [Index](https://cdn.cs50.net/2018/fall/lectures/6/src6/), [PDF](https://cdn.cs50.net/2018/fall/lectures/6/src6.pdf), [Sandbox](https://sandbox.cs50.io/bf2e6473-45bc-4ac4-bee2-7cd9b89aa6a8), [ZIP](https://cdn.cs50.net/2018/fall/lectures/6/src6.zip)
+-->
+* [Slides](https://docs.google.com/presentation/d/1XXKDd6XSXjuAmAZKGAX-_PtYUmoHaJ25j1zsJ17lK2E/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/6/lecture6.pdf))
+* Source Code: [Index](https://cdn.cs50.net/2019/fall/lectures/6/src6/), [PDF](https://cdn.cs50.net/2019/fall/lectures/6/src6.pdf), [ZIP](https://cdn.cs50.net/2019/fall/lectures/6/src6.zip)
 * Reference Sheet:
   * [Python]({{ "/assets/pdfs/python.pdf" | relative_url }})
+  
+***
+
+* TOC
+{:toc}
+
+<!--
 
 ## Last Time
 
@@ -428,3 +432,5 @@ TODO: update links
   * The functions for `dictionary.py` are pretty straightforward, since all we need is a `set()`, a collection into which we can load unique values. In `load`, we open the `dictionary` file, and add each line in the file as a word (without the newline character).
   * For `check`, we can just return whether `word` is in `words`, and for `size`, we can just return the length of `words`. Finally, we don't need to do anything to `unload`, since Python manages memory for us.
 * By having used C first, we have an understanding (and appreciation!) for the abstractions that a higher-level language like Python provides us. Indeed, if we run some tests for performance, a speller implementation in Python might be 1.5x slower, and so depending on the application, this may or may not be important enough to justify the human time it might take to write a program in a lower-level language like C, which might run much faster or require less memory.
+
+-->

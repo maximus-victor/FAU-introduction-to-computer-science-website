@@ -1,22 +1,23 @@
 # Computational Thinking
 {:.no_toc}
 
-TODO: Update Links
-
 <iframe width="1680" height="801" src="https://www.youtube.com/embed/jjqgP9dpD1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-* TOC
-{:toc}
+* [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/0/lecture0.mp3.download)
+* [Notes](https://cs50.harvard.edu/x/2020/notes/0/)
+* Problem: [Scratch](https://cs50.harvard.edu/x/2020/psets/0/)
+* [Slides](https://docs.google.com/presentation/d/17wRd8ksO6QkUq906SUgm17AqcI-Jan42jkY-EmufxnE/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/0/lecture0.pdf))
+* Source Code: [Index](https://cdn.cs50.net/2019/fall/lectures/0/src0/), [ZIP](https://cdn.cs50.net/2019/fall/lectures/0/src0.zip), [Studio](https://scratch.mit.edu/studios/25128634/)
 
 ***
 
-* Problems:
-  * [Scratch](https://docs.cs50.net/2019/ap/problems/scratch/scratch.html)
-* [Slides](https://cdn.cs50.net/2018/fall/lectures/0/lecture0.pdf)
-* Source Code from Lecture: [Index](https://cdn.cs50.net/2018/fall/lectures/0/src0/), [ZIP](https://cdn.cs50.net/2018/fall/lectures/0/src0.zip)
+* TOC
+{:toc}
+
+<!--
 
 ## Welcome
 
@@ -259,3 +260,5 @@ TODO: Update Links
 * As we use higher-level programming languages, we'll see more examples of how collections of code written by others, called libraries, will be useful for us to write programs of our own.
 * We play more examples of interactive games, written by former students.
 * Welcome aboard!
+
+-->
