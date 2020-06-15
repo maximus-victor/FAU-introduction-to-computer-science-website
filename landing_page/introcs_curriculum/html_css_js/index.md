@@ -12,8 +12,10 @@ TODO: update links
 ***
 
 * Problems:
+<!--
   * [Defender of the Web](https://docs.cs50.net/2019/ap/problems/defender/defender.html)
   * [Be the Teacher](https://docs.cs50.net/2019/ap/problems/teacher/teacher.html)
+-->
 * Shorts:
   * [CSS](https://www.youtube.com/watch?v=Ub3FKU21ubk)
   * [HTML](https://www.youtube.com/watch?v=YK78KhMf7bs)
@@ -34,6 +36,8 @@ TODO: update links
   * [IP Addresses]({{ "/assets/pdfs/ip_addresses.pdf" | relative_url }})
   * [TCP and IP]({{ "/assets/pdfs/tcp_and_ip.pdf" | relative_url }})
   * [DNS and DHCP]({{ "/assets/pdfs/dns_and_dhcp.pdf" | relative_url }})
+
+<!--
 
 ## Introduction
 
@@ -558,3 +562,5 @@ TODO: update links
 ## Problem: Homepage
 
 <iframe width="1214" height="683" src="https://www.youtube.com/embed/sEVlPyywlfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+-->

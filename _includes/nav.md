@@ -16,7 +16,7 @@
 * [Obj. Oriented Progr.]({{ "/landing_page/introcs_curriculum/OOP" | relative_url }}) (mit 6.00 week 8 & 9)
 * [SQL]({{ "/landing_page/introcs_curriculum/sql" | relative_url }}) (cs50's week 7)
 * [Information ℹ️]({{ "/landing_page/introcs_curriculum/information" | relative_url }}) (cs50's week 8)
-* [HTML, CSS & JS]({{ "/landing_page/introcs_curriculum/html_css_js" | relative_url }}) (cs50's web track)
+<!-- * [HTML, CSS & JS]({{ "/landing_page/introcs_curriculum/html_css_js" | relative_url }}) (cs50's web track) -->
 * [Web Programming 🌐]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) (cs50's web track)
 
 ***

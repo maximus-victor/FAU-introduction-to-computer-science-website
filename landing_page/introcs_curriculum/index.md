@@ -85,6 +85,7 @@ Race Conditions.
 
 ### [Information](information)
 
+<!--
 ### [HTML, CSS & JS](html_css_js)
 
 [Internet Basics]({{ "/assets/pdfs/internet_basics.pdf" | relative_url }}), 
@@ -97,9 +98,20 @@ Forms,
 [IP Addresses]({{ "/assets/pdfs/ip_addresses.pdf" | relative_url }}), 
 [TCP and IP]({{ "/assets/pdfs/tcp_and_ip.pdf" | relative_url }}), 
 [DNS and DHCP]({{ "/assets/pdfs/dns_and_dhcp.pdf" | relative_url }}).
+-->
 
 ### [Web Programming](web_programming)
 
+[Internet Basics]({{ "/assets/pdfs/internet_basics.pdf" | relative_url }}), 
+[Routers]({{ "/assets/pdfs/routers.pdf" | relative_url }}), 
+[HTTP]({{ "/assets/pdfs/http.pdf" | relative_url }}), 
+[HTML]({{ "/assets/pdfs/html.pdf" | relative_url }}), 
+Forms, 
+[CSS]({{ "/assets/pdfs/css.pdf" | relative_url }}), 
+[JavaScript]({{ "/assets/pdfs/javascript.pdf" | relative_url }}), 
+[IP Addresses]({{ "/assets/pdfs/ip_addresses.pdf" | relative_url }}), 
+[TCP and IP]({{ "/assets/pdfs/tcp_and_ip.pdf" | relative_url }}), 
+[DNS and DHCP]({{ "/assets/pdfs/dns_and_dhcp.pdf" | relative_url }}), 
 [Python for web programming]({{ "/assets/pdfs/python_for_web_programming.pdf" | relative_url }}), 
 Flask, 
 [MVC]({{ "/assets/pdfs/mvc.pdf" | relative_url }}), 
