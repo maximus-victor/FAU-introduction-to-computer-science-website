@@ -16,8 +16,9 @@
 * [g&t]({{ "/landing_page/introcs_curriculum/graphs_trees" | relative_url }}) Graphs & Trees
 * [OOP]({{ "/landing_page/introcs_curriculum/OOP" | relative_url }}) Obj. Oriented Progr.
 * [week 7]({{ "/landing_page/introcs_curriculum/sql" | relative_url }}) SQL
-* [week 8]({{ "/landing_page/introcs_curriculum/html_css_js" | relative_url }}) HTML, CSS, JavaScript
-* [week 9]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) Web Programming
+* [week 8]({{ "/landing_page/introcs_curriculum/information" | relative_url }}) Information
+* [week 9]({{ "/landing_page/introcs_curriculum/html_css_js" | relative_url }}) HTML, CSS, JavaScript
+* [week 10]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) Web Programming
 
 ***
 

@@ -67,8 +67,7 @@ Students in the Master's degree International Information Systems have no prior 
    source files.
 
    - Self-study presentations
-     - [[file:IntroCS_overview.org][*Overview of Computer Science*]] ([[file:IntroCS_overview.pdf][PDF]])
-     - [[file:IntroCS_C.org][*C*]] ([[file:IntroCS_C.pdf][PDF]])
+     - [[file:IntroCS_algorithms.org][*Algorithms*]] ([[file:IntroCS_algorithms.pdf][PDF]])
      - [[file:IntroCS_graphs_trees.org][*Graphs and Trees*]] ([[file:IntroCS_graphs_trees.pdf][PDF]])
 
    For offline work (also on mobile devices), you can
