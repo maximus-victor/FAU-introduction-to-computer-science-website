@@ -1,8 +1,6 @@
 # Web Programming
 {:.no_toc}
 
-***
-
 * Problems:
   * [Homepage](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
   * [Finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
@@ -34,7 +32,7 @@
   * [Ajax]({{ "/assets/pdfs/ajax.pdf" | relative_url }})
   * [MVC]({{ "/assets/pdfs/mvc.pdf" | relative_url }})
 
-***
+## Lectures
 
 * TOC
 {:toc}
