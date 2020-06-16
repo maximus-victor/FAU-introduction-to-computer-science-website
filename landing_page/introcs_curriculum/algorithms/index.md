@@ -5,6 +5,7 @@
 
 ***
 
+* Script: [TODO: **Algorithms**]({{ "/IntroCS_algorithms.html" | relative_url }}) ([**PDF**]({{ "/IntroCS_algorithms.pdf" | relative_url }}))
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/3/lecture3.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/3/)
 * Demos:
@@ -12,7 +13,15 @@
   * [What different sorting algorithms sound like](https://www.youtube.com/watch?v=t8g-iYGHpEA)
   * [Comparison Sorting Algorithms](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
   * [Visualization and Comparison of Sorting Algorithms](https://www.youtube.com/watch?v=ZZuD6iUe3Pc)
-* Problem: [PSet 3](https://cs50.harvard.edu/x/2020/psets/3/)
+* Exercises/Preliminary Problems:
+  * [Linear Search](https://lab.cs50.io/fau-is/IntroCS/CLinearSearch/)
+  * [Binary Search](https://lab.cs50.io/fau-is/IntroCS/CBinarySearch/)
+  * [Bubble Sort](https://lab.cs50.io/fau-is/IntroCS/CBubbleSort/)
+  * [Insertion Sort](https://lab.cs50.io/fau-is/IntroCS/CInsertionSort/)
+  * [Selection Sort](https://lab.cs50.io/fau-is/IntroCS/CSelectionSort/)
+  * [Stupid Sort](https://lab.cs50.io/fau-is/IntroCS/CAlgorithms/Stupidsort/)
+  * [Shell Sort](https://lab.cs50.io/fau-is/IntroCS/CAlgorithms/Shellsort/)
+* Problem Set: [PSet 3](https://cs50.harvard.edu/x/2020/psets/3/)
 * Shorts:
   * [Linear search](https://www.youtube.com/watch?v=TwsgCHYmbbA)
   * [Binary search](https://www.youtube.com/watch?v=T98PIp4omUA)

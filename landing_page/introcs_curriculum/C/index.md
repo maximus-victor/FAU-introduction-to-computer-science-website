@@ -7,7 +7,12 @@
 
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/1/lecture1.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/1/)
-* Problem: [PSet 1](https://cs50.harvard.edu/x/2020/psets/1/) 
+* Exercises/Preliminary Problems:
+  * [Getint](https://lab.cs50.io/fau-is/IntroCS/Pset1/Getint/)
+  * [Multiply](https://lab.cs50.io/fau-is/IntroCS/Pset1/Multiply/)
+  * [Modulo](https://lab.cs50.io/fau-is/IntroCS/Pset1/Modulo/)
+  * [Loops](https://lab.cs50.io/fau-is/IntroCS/Pset1/Loops/)
+* Problem Set: [PSet 1](https://cs50.harvard.edu/x/2020/psets/1/) 
 * Shorts:
   * [Data Types](https://www.youtube.com/watch?v=q6K8KMqt8wQ)
   * [Operators](https://www.youtube.com/watch?v=7apBtlEkJzk)

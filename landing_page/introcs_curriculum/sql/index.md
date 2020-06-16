@@ -7,7 +7,7 @@
 
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/7/lecture7.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/7/)
-* Problem: [PSet 7](https://cs50.harvard.edu/x/2020/psets/7/)
+* Problem Set: [PSet 7](https://cs50.harvard.edu/x/2020/psets/7/)
 * Shorts:
   * [SQL](https://www.youtube.com/watch?v=AywtnUjQ6X4)
 * [Slides](https://docs.google.com/presentation/d/1Ydz-FLPOBvmJv215WckMyjhlZVnNk66h5yHhZ-yDsc4/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/7/lecture7.pdf))

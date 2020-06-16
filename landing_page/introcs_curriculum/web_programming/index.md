@@ -1,7 +1,7 @@
 # Web Programming
 {:.no_toc}
 
-* Problems:
+* Problem Sets:
   * [Homepage](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
   * [Finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 * Shorts
@@ -33,6 +33,7 @@
   * [MVC]({{ "/assets/pdfs/mvc.pdf" | relative_url }})
 
 ## Lectures
+{:.no_toc}
 
 * TOC
 {:toc}

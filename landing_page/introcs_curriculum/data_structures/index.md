@@ -7,7 +7,11 @@
 
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/5/lecture5.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/5/)
-* Problem: [PSet 5](https://cs50.harvard.edu/x/2020/psets/5/)
+* Exercises/Preliminary Problems:
+  * [LinkedList](https://lab.cs50.io/fau-is/IntroCS/Pset4/LinkedList/)
+  * [HashTable](https://lab.cs50.io/fau-is/IntroCS/Pset4/HashTable/)
+  * [Trie](https://lab.cs50.io/fau-is/IntroCS/Pset4/Trie/)
+* Problem Set: [PSet 5](https://cs50.harvard.edu/x/2020/psets/5/)
 * Shorts:
   * [Data structures](https://www.youtube.com/watch?v=Ryz5KK5G8Sc)
   * [Singly-Linked lists](https://www.youtube.com/watch?v=zQI3FyWm144)

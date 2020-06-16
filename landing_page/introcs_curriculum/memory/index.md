@@ -11,7 +11,11 @@
   * [CSI Zoom Enhance](https://www.youtube.com/watch?v=i3gv2zOmJiA)
   * [Let's Enhance](https://www.youtube.com/watch?v=17MctJPzR8w)
   * [Pointer Fun with Binky](https://www.youtube.com/watch?v=_d0jFalGxnQ)
-* Problem: [PSet 4](https://cs50.harvard.edu/x/2020/psets/4/)
+* Exercises/Preliminary Problems:
+  * [Copycat](https://lab.cs50.io/fau-is/IntroCS/Pset3/Copycat/)
+  * [Witchcraft](https://lab.cs50.io/fau-is/IntroCS/Pset3/Witchcraft/)
+  * [CS50s Music](https://docs.cs50.net/2017/fall/psets/3/music/music.html)
+* Problem Set: [PSet 4](https://cs50.harvard.edu/x/2020/psets/4/)
 * Shorts:
   * [Hexadecimal](https://www.youtube.com/watch?v=8okwMK6htKE)
   * [Pointers](https://www.youtube.com/watch?v=8VAhORT0ZW8)

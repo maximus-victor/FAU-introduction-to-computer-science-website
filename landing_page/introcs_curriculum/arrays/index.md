@@ -7,7 +7,11 @@
 
 * [Lecture Audio](https://cdn.cs50.net/2019/fall/lectures/2/lecture2.mp3.download)
 * [Notes](https://cs50.harvard.edu/x/2020/notes/2/)
-* Problem: [PSet 2](https://cs50.harvard.edu/x/2020/psets/2/)
+* Exercises/Preliminary Problems:
+  * [Lowupper](https://lab.cs50.io/fau-is/IntroCS/Pset2/Lowupper/)
+  * [Inverse](https://lab.cs50.io/fau-is/IntroCS/Pset2/Inverse/)
+  * [Anagrams](https://lab.cs50.io/fau-is/IntroCS/Pset2/Anagrams/)
+* Problem Set: [PSet 2](https://cs50.harvard.edu/x/2020/psets/2/)
 * Shorts:
   * [Functions](https://www.youtube.com/embed/b7-0sb-DV84)
   * [Arrays](https://www.youtube.com/embed/mISkNAfWl8k)

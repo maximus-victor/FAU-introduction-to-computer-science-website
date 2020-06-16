@@ -12,7 +12,7 @@
 | 52   | 21.12. - 27.12. | graphs & trees         | Problem Set G&T (DISS)    | WISO     |
 | 53-1 | 28.12. - 10.01. | christmas              | Christmas Problems (DISS) | parents  |
 | 2    | 11.01. - 17.01. | OOP                    | Problem Set OOP (MIT)     | online   |
-| 3    | 18.01. - 24.01. | SQL                    | Problem Set 7 (CS50)      | online   |
-| 4    | 25.01. - 31.01  | HTML, CSS & JS         | Problem: Homepage (CS50)  | online   |
-| 5    | 01.02. - 07.02. | Web Programming        | Problem: Finance (CS50)   | online   |
+| 3    | 18.01. - 24.01. | SQL & Information      | Problem Set 7 (CS50)      | online   |
+| 4    | 25.01. - 31.01  | Web Programming 1      | Problem: Homepage (CS50)  | online   |
+| 5    | 01.02. - 07.02. | Web Programming 2      | Problem: Finance (CS50)   | online   |
 | 6    | 08.02. - 14.02. | exam preparation       | N/A                       | AEG      |
