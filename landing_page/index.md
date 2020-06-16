@@ -20,7 +20,7 @@ Some background concerning the origin of this project and the adopted teaching a
 - describe symptoms of problems precisely and ask questions clearly
 - test solutions to problems, find faults, and identify corner cases
 
-**Section Structure**:
+**How to IntroCS?**:
 - Lectures: The main content of this lecture is provided via Lecture Videos, Present Lectures and Guest Talks.
 - Shorts: Videos of about 3-30 minutes that dive into a specific topic more deeply.
 - Activation Quizzes: Short quizzes that ask about the theoretical concepts from the lecture.
