@@ -5,19 +5,18 @@
 
 ***
 
-* [Comp. Thinking 😺]({{ "/landing_page/introcs_curriculum/comp_thinking" | relative_url }}) (cs50's week 0)
-* [C]({{ "/landing_page/introcs_curriculum/C" | relative_url }}) (cs50's week 1)
-* [Arrays]({{ "/landing_page/introcs_curriculum/arrays" | relative_url }}) (cs50's week 2)
-* [Algorithms]({{ "/landing_page/introcs_curriculum/algorithms" | relative_url }}) (cs50's week 3)
-* [Memory]({{ "/landing_page/introcs_curriculum/memory" | relative_url }}) (cs50's week 4)
-* [Data Structures]({{ "/landing_page/introcs_curriculum/data_structures" | relative_url }}) (cs50's week 5)
-* [Python 🐍]({{ "/landing_page/introcs_curriculum/python" | relative_url }}) (cs50's week 6)
-* [Graphs & Trees 🎄]({{ "/landing_page/introcs_curriculum/graphs_trees" | relative_url }})
-* [Obj. Oriented Progr.]({{ "/landing_page/introcs_curriculum/OOP" | relative_url }}) (mit 6.00 week 8 & 9)
-* [SQL]({{ "/landing_page/introcs_curriculum/sql" | relative_url }}) (cs50's week 7)
-* [Information ℹ️]({{ "/landing_page/introcs_curriculum/information" | relative_url }}) (cs50's week 8)
-<!-- * [HTML, CSS & JS]({{ "/landing_page/introcs_curriculum/html_css_js" | relative_url }}) (cs50's web track) -->
-* [Web Programming 🌐]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) (cs50's web track)
+* [Comp. Thinking 😺]({{ "/landing_page/introcs_curriculum/comp_thinking" | relative_url }}) CS50's week 0
+* [C]({{ "/landing_page/introcs_curriculum/C" | relative_url }}) CS50's week 1
+* [Arrays]({{ "/landing_page/introcs_curriculum/arrays" | relative_url }}) CS50's week 2
+* [Algorithms]({{ "/landing_page/introcs_curriculum/algorithms" | relative_url }}) CS50's week 3
+* [Memory]({{ "/landing_page/introcs_curriculum/memory" | relative_url }}) CS50's week 4
+* [Data Structures]({{ "/landing_page/introcs_curriculum/data_structures" | relative_url }}) CS50's week 5
+* [Python 🐍]({{ "/landing_page/introcs_curriculum/python" | relative_url }}) CS50's week 6
+* [Graphs & Trees 🎄]({{ "/landing_page/introcs_curriculum/graphs_trees" | relative_url }}) FAU
+* [Obj. Oriented Progr.]({{ "/landing_page/introcs_curriculum/OOP" | relative_url }}) MIT 6.00 week 8 & 9
+* [SQL]({{ "/landing_page/introcs_curriculum/sql" | relative_url }}) CS50's week 7
+* [Information ℹ️]({{ "/landing_page/introcs_curriculum/information" | relative_url }}) CS50's week 8
+* [Web Programming 🌐]({{ "/landing_page/introcs_curriculum/web_programming" | relative_url }}) CS50's web track
 
 ***
 
