@@ -28,6 +28,7 @@ After this lecture you can...
    :CUSTOM_ID: BISE
    :END:
 #+REVEAL_HTML: <script data-quiz="quizGraphIntro" src="./quizzes/BISE.js"></script>
+Examples of graphs and tress
 
 ** History of graph theory - Euler (1736): The Seven Bridges of Königsberg
 Devise a walk through the city that would cross each of those bridges once and only once.
@@ -37,7 +38,7 @@ By specifying the logical task unambiguously, solutions do not involve
 
 ** Definition of Graphs
 *** Directed Graphs
-Definition: $G = (V,E)$ where:
+Definition: $G = (V, E)$ where:
 - *$V$* is the set of all *vertices in a graph*
 	- $v \in V$ is one vertex of a graph
 	- for each vertex we dreaw one node
@@ -48,10 +49,107 @@ Definition: $G = (V,E)$ where:
 		- $v$ is the end/destination vertex
 	- For each edge, we draw an arrow from the start to the end node
 
+*** Undirected Graphs
+If a graph: $G = (V, E)$ has a symmetric set of edges $(E)$ we speak of so-called undirected graphs:
+$G = (V, E)$ with:
+$V = \{A, B, C\}$,
+$E = \{(A, B), (A, C), (B, A), (C, A)\}
+
+Symmetry of E:
+- $\forall (u, v) \in E. (v, u) \in E
+- For all edges (u, v) in E there is also an edge (v, u).
+
+We leave out arrows and simply use lines in undirected graphs instead
+
+*** Multigraphs
+- In contrast to simple graphs, multigraphs allow so-called parallel edges
+- Edges are parallel if they have the same start and end vertices
+- Example: Public Transport travelling from Nuremberg to Erlangen
+- $G = (\{Nbg, Erl\}, \{(Nbg, Erl), (Nbg, Erl), (Nbg, Erl)\})
+
+** Weighted Edges
+*** Measuring distance
+- Edges can be annotated (weighed) with values like costs, time, or anything you find useful.
+- In the previous example, we could either travel by Bus, Train or S-Bahn. Each of these means by travel takes a different time. In the following graph, we see three means to travel from Nürnberg to Erlangen (and back), where the ways take 25, 15, or 10 minutes.
+- Notation: Undirected Graph G = (\{Nbg, Erl\},\{(Nbg, Erl, 10), (Nbg,Erl, 15), (Nbg,Erl, 25)\}
+
+** Adjacency Matrices
+*** Data structure to store graphs (1/3)
+Formal Definition:
+− Let $G = (V, E)$ be a graph with $V = \{v_1, ..., v_n\}$
+- Then the $n \times n$ Matrix $A_G = (a_{i, j})_{1 \leq i, j \leq n}$ where $a_{i, j} = 1$ if $(v_i, v_j) \in E$, $a_{i, j} = 0$ else. is called adjacency matrix of Graph $G$.
+
+- Note: For weighed graphs, we use the weight instead of the 1 to indicate there is an edge.
+
+*** Data structure to store graphs (2/3)
+- (Simplified) Explanation:
+  - Imagine every node as a row and a column in the matrix:
+  TODO: Picture
+
+If you look at the column of a node, you find all the incoming edges
+If you look at the row of a node, you find all the outgoing edges
+
+*** Data structure to store graphs (3/3)
+- (Simplified) Explanation:
+  − Now, since we know vertex 1 is in row 0 and column 0, vertex 2 is in row 1 and column 1. We can omit the vertices numbers in the resulting matrix.
+  − After that we encode a “Yes” as an answer to the previous questions to 1 and a “No” to 0.
+
+TODO: Image
+
+** Graph drawing
+*** Graphs might look different even though they are the same
+If we draw a graph from an adjacency matrix, the result might look different:
+TODO: Image
+
+Even though the graphs (1) and (2) look differently, they are the same. The only difference is the placement of the vertices.
+
+*** Adjacency Matrix to Graph
+Can you draw the graph from the following matrix?
+
+** Adjacency List
+*** Example
+Can you draw the graph from the following matrix?
+TODO: Image
+
+*** Data structure to store graphs
+TODO: Image
+
+*** Definition
+How could we implement an adjacency list?
+
+In general, there are three “well-known” ways to implement an adjacency list:
+- Hash Table
+- Arrays with indices
+- Object-oriented
+
+** Definition of “Ways”
+*** Walk, Trail, Path
+- A (finite) Walk: Is sequence of vertices leading to a vertex sequence.
+- A (finite) Trail: Is a walk where all edges are distinct.
+- A (finite) Path: Is a walk where all vertices are distinct.
+
+** Task: The first graph drawn (1736): The Seven Bridges of Königsberg
+- What‘s the definition of the graph Euler used in Königsberg?
+  LM = Landmass
+  I = Island
+- Is the graph directed?
+- Is it a multi or a simple graph?
+
+- Solution:
+Undirected Multigraph $G = (E, V)$
+$V = \{LM1, LM2, I1, I2\}$
+$E = \{(LM1, I1), (LM1, I1), (LM1, I2), (I1, I2), (I1, LM2), (I1, LM2), (I2, LM2)\}$
+
+TODO: Picture
+
+** Abstract data structures
+*** Data structures with links
+TODO: Pictures
+
+
 * Trees
-    :PROPERTIES:
-    :CUSTOM_ID: trees
-    :END:
+** Representation of hierarchical information
+TODO: picture
 
 #+BEGIN_NOTES
 Test
