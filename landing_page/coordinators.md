@@ -1,6 +1,7 @@
 ## Lecturers
 #### Martin Matzner
 ![Martin Matzner Picture]({{ "/landing_page/MaMa.png" | relative_url }}=250x) <br>
+<img src="/landing_page/MaMa.png" width="40%"> <br>
 Martin Matzner ('82) studied Information Systems at the Westfälische Wilhelms-Universität Münster (WWU) and at the Turku School of Economics from 2002 to 2007. He then worked first as a research assistant and then as a temporary academic advisor at the Institute for Information Systems at WWU, where he most recently headed the "Service Science" competence center of the European Research Center for Information Systems (ERCIS). Martin Matzner received his doctorate in 2012 for his work on Business Process Management in Service Networks at WWU. After his habilitation, WWU granted him a teaching license for Information Systems in 2016. Martin Matzner has held the chair for Digital Industrial Service Systems at FAU since 2017.
 Professor Matzner's research focuses on IT-supported services, business process management and creative information systems research. (https://www.wiso.rw.fau.de/forschung/forschungsprofil/professorenschaft/prof-dr-martin-matzner/ + DeepL)
 
