@@ -21,7 +21,8 @@
 * [Slides](https://docs.google.com/presentation/d/1KMzq3bLe7g_O4JVYZ0lxuxHjShnIk54beO84-chYTig/edit?usp=sharing) ([PDF](https://cdn.cs50.net/2019/fall/lectures/5/lecture5.pdf))
 * Source Code: [Index](https://cdn.cs50.net/2019/fall/lectures/5/src5/), [PDF](https://cdn.cs50.net/2019/fall/lectures/5/src5.pdf), [ZIP](https://cdn.cs50.net/2019/fall/lectures/5/src5.zip)
 * Cheat Sheets:
-  * [Structures and Encapsulation]({{ "/assets/pdfs/structures_and_encapsulation.pdf" | relative_url }}), 
+  * [Structures and Encapsulation]({{ "/assets/pdfs/structures_and_encapsulation.pdf" | relative_url }})
+  * [IntroCS: Heaps]({{ "/assets/pdfs/IntroCS_Heaps.pdf" | relative_url }})
 
 ***
 
