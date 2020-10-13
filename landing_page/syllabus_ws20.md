@@ -9,9 +9,9 @@
 | 49   | 30.11. - 06.12. | Memory                 | Problem Set 4 (CS50)      | online   |
 | 50   | 07.12. - 13.12. | Data Structures        | Problem Set 5 (CS50)      | online   |
 | 51   | 14.12. - 20.12. | Python                 | Problem Set 6 (CS50)      | online   |
-| 52   | 21.12. - 27.12. | graphs & trees         | Problem Set G&T (DISS)    | WISO     |
+| 52   | 21.12. - 27.12. | OOP                    | Problem Set OOP (MIT)     | WISO     |
 | 53-1 | 28.12. - 10.01. | christmas              | Christmas Problems (DISS) | parents  |
-| 2    | 11.01. - 17.01. | OOP                    | Problem Set OOP (MIT)     | online   |
+| 2    | 11.01. - 17.01. | graphs & trees         | Problem Set G&T (DISS)    | online   |
 | 3    | 18.01. - 24.01. | SQL & Information      | Problem Set 7 (CS50)      | online   |
 | 4    | 25.01. - 31.01  | Web Programming 1      | Problem: Homepage (CS50)  | online   |
 | 5    | 01.02. - 07.02. | Web Programming 2      | Problem: Finance (CS50)   | online   |
