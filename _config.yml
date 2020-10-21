@@ -1,12 +1,13 @@
 permalink: pretty
 
-baseurl: "IntroCS/"
+baseurl: "/"
 
 source: ./
 
 theme: jekyll-theme-cs50
 
 title: IntroCS
+
 
 
 defaults:
