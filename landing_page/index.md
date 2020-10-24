@@ -2,7 +2,7 @@
 title: IntroCS
 ---
 
-# Hello, world! (TEST AGAIN! 5)
+# Hello, world! (TEST AGAIN! 6)
 [IntroCS]((https://www.is.rw.fau.de/lehre/veranstaltungen/intro-to-cs/)) is an introductory course for computer science. The course is offered by the institute for information systems at the Friedrich-Alexander University Erlangen-Nuremberg, Germany and is especcialy tailored for the master degree program in [International Information Systems]((http://iis.fau.de/)) and therein for students who have little or no background in computer science. The course makes use of contents of the chair of digital industrial service systems ([FAU](https://www.fau.de/)), CS50x ([Harvard](https://www.harvard.edu/)) and 6.001 ([MIT](http://web.mit.edu/)).
 Among this course’s objectives is to supply students with a comprehensive introduction to the fundamentals and the discipline of computer science. We will do so ny using programming in several different languages as a vehicle to introduce these fundamentals, including such topics as algorithms, abstraction, data, global impact, and internet technologies. Though the course is programming-heavy, it should be emphasized that this is not a “programming course”; rather, this course should be considered one of problem-solving, creativity, and exploration. By the end of the semester, students will have a richer understanding of the key principles of the discipline of computer science. Students will be able to speak intelligently about how computers work and how they enable us to become better problem-solvers, and will hopefully be able to communicate that knowledge to others.
 
