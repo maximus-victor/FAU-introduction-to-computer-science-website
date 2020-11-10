@@ -8,7 +8,7 @@
 </div>
 
 ## Abstract
-This is the repository for the [Introduction to Computer Science webpage](introcs.maximilian-harl.de). I built this to support the course Introduction to Computer Science at the chair of [Digital Industrial Service Systems](https://www.is.rw.fau.de/) at [FAU](https://www.fau.de/) to move to a more sustainable online format. This was in parts motivated through the COVID-19 crisis but mostly throught the strategy of the course.
+This is the repository for [prototype](introcs.maximilian-harl.de) of the [Introduction to Computer Science website](introcs.is.rw.fau.de). I built this to support the course Introduction to Computer Science at the chair of [Digital Industrial Service Systems](https://www.is.rw.fau.de/) at [FAU](https://www.fau.de/) to move to a more sustainable online format. This was in parts motivated through the COVID-19 crisis but mostly throught the strategy of the course.
 The exercises that I created for the course w/ solutions can be found [here](https://github.com/EinGartenzwerg/CS_Basics) (only if I already granted you access). The official exercises (most of them with tests) can be found [here](https://github.com/fau-is/IntroCS).
 
 ## Structure of this repository
